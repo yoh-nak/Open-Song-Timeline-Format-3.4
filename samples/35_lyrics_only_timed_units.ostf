@@ -1,0 +1,69 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Timed lyrics without notes"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc",
+        "language": "ja",
+        "title": "歌詞のみ"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "line",
+        "documentId": "doc",
+        "text": "星を見て",
+        "pronunciation": "ほしをみて",
+        "start": 0,
+        "duration": 3840
+      }
+    ],
+    "units": [
+      {
+        "id": "word-a",
+        "phraseId": "line",
+        "text": "星を",
+        "pronunciation": "ほしを",
+        "start": 0,
+        "duration": 1440
+      },
+      {
+        "id": "word-b",
+        "phraseId": "line",
+        "text": "見て",
+        "pronunciation": "みて",
+        "start": 1440,
+        "duration": 2400
+      }
+    ],
+    "alignments": []
+  },
+  "resources": []
+}

@@ -1,0 +1,175 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Resources and all provenance action labels"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [
+    {
+      "id": "resource-audio",
+      "kind": "audio",
+      "uri": "urn:example:asset:audio",
+      "name": "Illustrative audio",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "id": "resource-midi",
+      "kind": "midi",
+      "uri": "urn:example:asset:midi",
+      "name": "Illustrative midi",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    {
+      "id": "resource-text",
+      "kind": "text",
+      "uri": "urn:example:asset:text",
+      "name": "Illustrative text",
+      "sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "id": "resource-other",
+      "kind": "other",
+      "uri": "urn:example:asset:other",
+      "name": "Illustrative other",
+      "sha256": "3333333333333333333333333333333333333333333333333333333333333333"
+    }
+  ],
+  "provenance": {
+    "records": [
+      {
+        "id": "record-create",
+        "action": "create",
+        "description": "Synthetic non-executable history example.",
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      },
+      {
+        "id": "record-import",
+        "action": "import",
+        "description": "Synthetic non-executable history example.",
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      },
+      {
+        "id": "record-conversion",
+        "action": "conversion",
+        "description": "Synthetic non-executable history example.",
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      },
+      {
+        "id": "record-edit",
+        "action": "edit",
+        "description": "Synthetic non-executable history example.",
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      },
+      {
+        "id": "record-transpose",
+        "action": "transpose",
+        "description": "Synthetic non-executable history example.",
+        "semitones": 0,
+        "beforeKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "C",
+            "alter": 0
+          },
+          "mode": "major"
+        },
+        "afterKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "C",
+            "alter": 0
+          },
+          "mode": "major"
+        },
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      },
+      {
+        "id": "record-merge",
+        "action": "merge",
+        "description": "Synthetic non-executable history example.",
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      },
+      {
+        "id": "record-generation",
+        "action": "generation",
+        "description": "Synthetic non-executable history example.",
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      },
+      {
+        "id": "record-other",
+        "action": "other",
+        "description": "Synthetic non-executable history example.",
+        "sources": [
+          {
+            "resourceId": "resource-text",
+            "uri": "urn:example:history:source"
+          }
+        ]
+      }
+    ]
+  }
+}

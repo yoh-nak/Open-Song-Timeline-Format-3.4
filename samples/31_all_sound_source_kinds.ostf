@@ -1,0 +1,101 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Sound-source hints do not load instruments"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "source-unassigned",
+      "name": "source-unassigned",
+      "clips": [],
+      "soundSource": {
+        "kind": "unassigned"
+      },
+      "instrument": {
+        "name": "Authored instrument name",
+        "family": "informational"
+      }
+    },
+    {
+      "id": "source-gm1",
+      "name": "source-gm1",
+      "clips": [],
+      "soundSource": {
+        "kind": "gm1"
+      },
+      "instrument": {
+        "name": "Authored instrument name",
+        "family": "informational"
+      }
+    },
+    {
+      "id": "source-externalMidi",
+      "name": "source-externalMidi",
+      "clips": [],
+      "soundSource": {
+        "kind": "externalMidi",
+        "identifier": "urn:example:destination:externalMidi"
+      },
+      "instrument": {
+        "name": "Authored instrument name",
+        "family": "informational"
+      }
+    },
+    {
+      "id": "source-plugin",
+      "name": "source-plugin",
+      "clips": [],
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:example:destination:plugin"
+      },
+      "instrument": {
+        "name": "Authored instrument name",
+        "family": "informational"
+      }
+    },
+    {
+      "id": "source-hostManaged",
+      "name": "source-hostManaged",
+      "clips": [],
+      "soundSource": {
+        "kind": "hostManaged",
+        "identifier": "urn:example:destination:hostManaged"
+      },
+      "instrument": {
+        "name": "Authored instrument name",
+        "family": "informational"
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

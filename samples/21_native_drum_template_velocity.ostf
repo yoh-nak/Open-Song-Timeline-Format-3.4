@@ -1,0 +1,121 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Native drum templates with velocity"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "trackType": "drum",
+      "role": "drums",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "name": "Phrase",
+          "start": 0,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "n-first",
+              "start": 0,
+              "duration": 480,
+              "velocity": 100,
+              "soundSlotId": "snare-slot"
+            },
+            {
+              "id": "n-second",
+              "start": 960,
+              "duration": 480,
+              "velocity": 100,
+              "soundSlotId": "snare-slot"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "snare-slot",
+      "name": "Snare",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 38
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "phraseLibrary": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "templates": [
+      {
+        "id": "template-a",
+        "name": "Seed phrase",
+        "duration": 960,
+        "notes": [
+          {
+            "id": "local-source",
+            "start": 0,
+            "duration": 480,
+            "velocity": 100,
+            "soundSlotId": "snare-slot"
+          }
+        ]
+      }
+    ],
+    "instances": [
+      {
+        "id": "instance-a",
+        "templateId": "template-a",
+        "clipId": "lead-clip",
+        "repeatCount": 2,
+        "transpose": 0,
+        "velocityMode": "linked",
+        "noteMap": [
+          {
+            "templateNoteId": "local-source",
+            "repeatIndex": 0,
+            "noteId": "n-first"
+          },
+          {
+            "templateNoteId": "local-source",
+            "repeatIndex": 1,
+            "noteId": "n-second"
+          }
+        ]
+      }
+    ]
+  }
+}

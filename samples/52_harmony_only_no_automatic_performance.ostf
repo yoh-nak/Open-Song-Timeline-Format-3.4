@@ -1,0 +1,77 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Analysis without performed tracks",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "F",
+        "alter": 0
+      },
+      "mode": "major"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "a",
+        "start": 0,
+        "duration": 3840,
+        "label": "Fmaj7"
+      },
+      {
+        "id": "b",
+        "start": 3840,
+        "duration": 3840,
+        "label": "Gm7/C"
+      }
+    ],
+    "scales": [
+      {
+        "id": "scale",
+        "start": 0,
+        "duration": 7680,
+        "tonic": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ]
+      }
+    ]
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

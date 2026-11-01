@@ -1,0 +1,150 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Linked phrase after explicit replacement"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "t",
+      "name": "t",
+      "clips": [
+        {
+          "id": "c",
+          "start": 0,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "n-0-0",
+              "start": 0,
+              "duration": 240,
+              "pitch": 60,
+              "velocity": 80
+            },
+            {
+              "id": "n-0-1",
+              "start": 480,
+              "duration": 240,
+              "pitch": 67,
+              "velocity": 100
+            },
+            {
+              "id": "n-1-0",
+              "start": 960,
+              "duration": 240,
+              "pitch": 60,
+              "velocity": 80
+            },
+            {
+              "id": "n-1-1",
+              "start": 1440,
+              "duration": 240,
+              "pitch": 67,
+              "velocity": 100
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "document": {
+    "id": "urn:example:phrase-edit",
+    "revisionId": "urn:example:after",
+    "parents": [
+      {
+        "documentId": "urn:example:phrase-edit",
+        "revisionId": "urn:example:before"
+      }
+    ]
+  },
+  "phraseLibrary": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "templates": [
+      {
+        "id": "tpl",
+        "duration": 960,
+        "name": "Two notes",
+        "notes": [
+          {
+            "id": "src-a",
+            "start": 0,
+            "duration": 240,
+            "pitch": 60,
+            "velocity": 80
+          },
+          {
+            "id": "src-b",
+            "start": 480,
+            "duration": 240,
+            "pitch": 67,
+            "velocity": 100
+          }
+        ]
+      }
+    ],
+    "instances": [
+      {
+        "id": "inst",
+        "templateId": "tpl",
+        "clipId": "c",
+        "repeatCount": 2,
+        "transpose": 0,
+        "velocityMode": "linked",
+        "noteMap": [
+          {
+            "templateNoteId": "src-a",
+            "repeatIndex": 0,
+            "noteId": "n-0-0"
+          },
+          {
+            "templateNoteId": "src-b",
+            "repeatIndex": 0,
+            "noteId": "n-0-1"
+          },
+          {
+            "templateNoteId": "src-a",
+            "repeatIndex": 1,
+            "noteId": "n-1-0"
+          },
+          {
+            "templateNoteId": "src-b",
+            "repeatIndex": 1,
+            "noteId": "n-1-1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Empty template and independent concrete velocity"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "t",
+      "name": "t",
+      "clips": [
+        {
+          "id": "empty",
+          "start": 0,
+          "duration": 1920,
+          "notes": []
+        },
+        {
+          "id": "down",
+          "start": 1920,
+          "duration": 960,
+          "notes": [
+            {
+              "id": "down-note",
+              "start": 0,
+              "duration": 480,
+              "pitch": 0,
+              "velocity": 1
+            }
+          ]
+        },
+        {
+          "id": "up",
+          "start": 2880,
+          "duration": 960,
+          "notes": [
+            {
+              "id": "up-note",
+              "start": 0,
+              "duration": 480,
+              "pitch": 127
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "phraseLibrary": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "templates": [
+      {
+        "id": "empty-tpl",
+        "duration": 960,
+        "notes": []
+      },
+      {
+        "id": "down-tpl",
+        "duration": 960,
+        "notes": [
+          {
+            "id": "source-note",
+            "start": 0,
+            "duration": 480,
+            "pitch": 127,
+            "velocity": 127
+          }
+        ]
+      },
+      {
+        "id": "up-tpl",
+        "duration": 960,
+        "notes": [
+          {
+            "id": "source-note",
+            "start": 0,
+            "duration": 480,
+            "pitch": 0,
+            "velocity": 90
+          }
+        ]
+      }
+    ],
+    "instances": [
+      {
+        "id": "empty-inst",
+        "templateId": "empty-tpl",
+        "clipId": "empty",
+        "repeatCount": 2,
+        "transpose": 0,
+        "noteMap": []
+      },
+      {
+        "id": "down-inst",
+        "templateId": "down-tpl",
+        "clipId": "down",
+        "repeatCount": 1,
+        "transpose": -127,
+        "noteMap": [
+          {
+            "templateNoteId": "source-note",
+            "repeatIndex": 0,
+            "noteId": "down-note"
+          }
+        ],
+        "velocityMode": "independent"
+      },
+      {
+        "id": "up-inst",
+        "templateId": "up-tpl",
+        "clipId": "up",
+        "repeatCount": 1,
+        "transpose": 127,
+        "noteMap": [
+          {
+            "templateNoteId": "source-note",
+            "repeatIndex": 0,
+            "noteId": "up-note"
+          }
+        ],
+        "velocityMode": "independent"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1909 @@
+{
+  "purpose": "Static data cases, not device execution tests",
+  "cases": [
+    {
+      "name": "atonal_with_tonic",
+      "expected": "schema",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "key": {
+            "state": "atonal",
+            "tonic": {
+              "step": "C",
+              "alter": 0
+            }
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "duplicate_initial_key_location",
+      "expected": "schema",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": ""
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ],
+          "keyChanges": [
+            {
+              "id": "change",
+              "at": 0,
+              "key": {
+                "state": "tonal",
+                "tonic": {
+                  "step": "E",
+                  "alter": 0
+                },
+                "mode": "minor"
+              }
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "duplicate_key_change_time",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": ""
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ],
+          "keyChanges": [
+            {
+              "id": "k-a",
+              "at": 960,
+              "key": {
+                "state": "tonal",
+                "tonic": {
+                  "step": "E",
+                  "alter": 0
+                },
+                "mode": "minor"
+              }
+            },
+            {
+              "id": "k-b",
+              "at": 960,
+              "key": {
+                "state": "tonal",
+                "tonic": {
+                  "step": "D",
+                  "alter": 0
+                },
+                "mode": "minor"
+              }
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "tonal_missing_mode",
+      "expected": "schema",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "key": {
+            "state": "tonal",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            }
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "nonstandard_duplicate_tempo",
+      "expected": "schema",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "bpm": 120
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "empty_genre_name",
+      "expected": "schema",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "genres": [
+            {
+              "id": "genre",
+              "name": ""
+            }
+          ]
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "unsorted_scale",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "scale": {
+            "id": "scale-default",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "intervals": [
+              0,
+              7,
+              3
+            ],
+            "label": "Example scale"
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "missing_primary_melody",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "primaryMelodyTrackId": "missing"
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "missing_primary_lyrics",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "primaryLyricDocumentId": "missing"
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "incorrect_beat_group_sum",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": ""
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4,
+              "beatGroups": [
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "pickup_not_shorter_than_bar",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": ""
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ],
+          "barOrigin": 3840
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "negative_absolute_onset",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": ""
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 3840,
+                "notes": [
+                  {
+                    "id": "note-a",
+                    "start": -1,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 90
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "voicing_velocity_length_mismatch",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Voicing and performance are separate"
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [
+            {
+              "id": "chord-e",
+              "start": 0,
+              "duration": 3840,
+              "label": "Em",
+              "root": {
+                "step": "E",
+                "alter": 0
+              },
+              "intervals": [
+                0,
+                3,
+                7
+              ],
+              "voicing": {
+                "pitches": [
+                  52,
+                  59,
+                  64,
+                  64
+                ],
+                "velocities": [
+                  90
+                ]
+              }
+            }
+          ],
+          "scales": []
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 3840,
+                "notes": [
+                  {
+                    "id": "note-a",
+                    "start": 0,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 90
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "linked_velocity_mismatch",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Reusable notes with explicit velocity policy"
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 1920,
+                "notes": [
+                  {
+                    "id": "n-first",
+                    "start": 0,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 100
+                  },
+                  {
+                    "id": "n-second",
+                    "start": 960,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 20
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": [],
+        "phraseLibrary": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "templates": [
+            {
+              "id": "template-a",
+              "name": "Seed phrase",
+              "duration": 960,
+              "notes": [
+                {
+                  "id": "local-source",
+                  "start": 0,
+                  "duration": 480,
+                  "pitch": 64,
+                  "velocity": 100
+                }
+              ]
+            }
+          ],
+          "instances": [
+            {
+              "id": "instance-a",
+              "templateId": "template-a",
+              "clipId": "lead-clip",
+              "repeatCount": 2,
+              "transpose": 0,
+              "velocityMode": "linked",
+              "noteMap": [
+                {
+                  "templateNoteId": "local-source",
+                  "repeatIndex": 0,
+                  "noteId": "n-first"
+                },
+                {
+                  "templateNoteId": "local-source",
+                  "repeatIndex": 1,
+                  "noteId": "n-second"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "selection_enabled_mismatch",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Shared candidates and explicit silence"
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 3840,
+                "notes": [
+                  {
+                    "id": "note-a",
+                    "start": 0,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 90
+                  }
+                ],
+                "enabled": true
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": [],
+        "clipChoices": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "groups": [
+            {
+              "id": "group-a",
+              "name": "Candidates",
+              "candidates": [
+                {
+                  "id": "candidate-a",
+                  "name": "Phrase",
+                  "clipIds": [
+                    "lead-clip"
+                  ]
+                },
+                {
+                  "id": "candidate-silent",
+                  "name": "Silence",
+                  "clipIds": []
+                }
+              ],
+              "selectedCandidateId": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "incomplete_groove_ratio",
+      "expected": "schema",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Relative pitches and generation intent",
+          "key": {
+            "state": "tonal",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "mode": "minor"
+          },
+          "scale": {
+            "id": "scale-default",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "intervals": [
+              0,
+              2,
+              3,
+              5,
+              7,
+              8,
+              10
+            ],
+            "label": "Example scale"
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 3840,
+                "notes": [
+                  {
+                    "id": "note-a",
+                    "start": 0,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 90
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": [],
+        "relativePhrases": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "assignments": [
+            {
+              "noteId": "note-a",
+              "basis": "scaleDegree",
+              "contextId": "scale-default",
+              "anchorPitch": 64,
+              "index": 1,
+              "chromaticOffset": 0
+            }
+          ]
+        },
+        "generation": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "processes": [
+            {
+              "id": "process-a",
+              "generator": {
+                "id": "example.generator",
+                "version": "1"
+              },
+              "inputs": [
+                {
+                  "role": "scale",
+                  "ref": {
+                    "type": "scale",
+                    "id": "scale-default"
+                  },
+                  "readRange": {
+                    "start": 0,
+                    "duration": 3840
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "type": "note",
+                  "id": "note-a"
+                }
+              ],
+              "protectedNoteIds": [
+                "note-a"
+              ],
+              "targetRange": {
+                "start": 0,
+                "duration": 3840
+              },
+              "intent": {
+                "genreNames": [
+                  "Trance"
+                ],
+                "moodNames": [
+                  "Open"
+                ],
+                "groove": {
+                  "name": "Unequal pair",
+                  "longWeight": 2,
+                  "shortWeight": 1
+                },
+                "prompt": "Author-provided descriptive text; never execute on import.",
+                "seed": "9007199254740993"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "relative_pitch_mismatch",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Relative pitches and generation intent",
+          "key": {
+            "state": "tonal",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "mode": "minor"
+          },
+          "scale": {
+            "id": "scale-default",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "intervals": [
+              0,
+              2,
+              3,
+              5,
+              7,
+              8,
+              10
+            ],
+            "label": "Example scale"
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 3840,
+                "notes": [
+                  {
+                    "id": "note-a",
+                    "start": 0,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 90
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": [],
+        "relativePhrases": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "assignments": [
+            {
+              "noteId": "note-a",
+              "basis": "scaleDegree",
+              "contextId": "scale-default",
+              "anchorPitch": 60,
+              "index": 1,
+              "chromaticOffset": 0
+            }
+          ]
+        },
+        "generation": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "processes": [
+            {
+              "id": "process-a",
+              "generator": {
+                "id": "example.generator",
+                "version": "1"
+              },
+              "inputs": [
+                {
+                  "role": "scale",
+                  "ref": {
+                    "type": "scale",
+                    "id": "scale-default"
+                  },
+                  "readRange": {
+                    "start": 0,
+                    "duration": 3840
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "type": "note",
+                  "id": "note-a"
+                }
+              ],
+              "protectedNoteIds": [
+                "note-a"
+              ],
+              "targetRange": {
+                "start": 0,
+                "duration": 3840
+              },
+              "intent": {
+                "genreNames": [
+                  "Trance"
+                ],
+                "moodNames": [
+                  "Open"
+                ],
+                "groove": {
+                  "name": "Unequal pair",
+                  "unitTicks": 480,
+                  "longWeight": 2,
+                  "shortWeight": 1
+                },
+                "prompt": "Author-provided descriptive text; never execute on import.",
+                "seed": "9007199254740993"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "cross_kind_duplicate_id",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "genres": [
+            {
+              "id": "same",
+              "name": "Pop"
+            }
+          ],
+          "moods": [
+            {
+              "id": "same",
+              "name": "Calm"
+            }
+          ]
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "case_duplicate_language",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "languages": [
+            "en",
+            "EN"
+          ]
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "missing_rights_holder",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "",
+          "rights": {
+            "rightsHolderIds": [
+              "missing"
+            ]
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    },
+    {
+      "name": "revision_is_own_parent",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Identity and non-executable provenance",
+          "key": {
+            "state": "tonal",
+            "tonic": {
+              "step": "D",
+              "alter": 0
+            },
+            "mode": "major"
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": [
+          {
+            "id": "resource-a",
+            "kind": "midi",
+            "uri": "source.mid",
+            "name": "Example source",
+            "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+          }
+        ],
+        "document": {
+          "id": "urn:example:document:one",
+          "revisionId": "urn:example:revision:two",
+          "parents": [
+            {
+              "documentId": "urn:example:document:one",
+              "revisionId": "urn:example:revision:two",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ],
+          "createdBy": {
+            "name": "Example editor",
+            "version": "1.0"
+          },
+          "modifiedBy": {
+            "name": "Another editor",
+            "version": "2.0"
+          }
+        },
+        "provenance": {
+          "records": [
+            {
+              "id": "history-a",
+              "action": "transpose",
+              "description": "Committed example only, not playback transpose",
+              "tool": {
+                "name": "Example editor",
+                "version": "1.0"
+              },
+              "sources": [
+                {
+                  "format": "OSTF",
+                  "version": "3.3.0",
+                  "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+                  "uri": "urn:example:source",
+                  "documentId": "urn:example:document:one",
+                  "revisionId": "urn:example:revision:one",
+                  "resourceId": "resource-a"
+                }
+              ],
+              "semitones": 2,
+              "beforeKey": {
+                "state": "tonal",
+                "tonic": {
+                  "step": "C",
+                  "alter": 0
+                },
+                "mode": "major"
+              },
+              "afterKey": {
+                "state": "tonal",
+                "tonic": {
+                  "step": "D",
+                  "alter": 0
+                },
+                "mode": "major"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "translation_of_musical_semantics",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "言語と作者情報",
+          "languages": [
+            "ja",
+            "en"
+          ],
+          "genres": [
+            {
+              "id": "genre-open",
+              "name": "独自ジャンル",
+              "externalUri": "urn:example:genre:custom"
+            }
+          ],
+          "moods": [
+            {
+              "id": "mood-calm",
+              "name": "穏やか",
+              "externalUri": "urn:example:mood:calm"
+            }
+          ],
+          "credits": [
+            {
+              "id": "credit-composer",
+              "contributorId": "person-example",
+              "role": "composer",
+              "label": "作曲"
+            }
+          ],
+          "rights": {
+            "notice": "Illustrative statement only",
+            "licenseUri": "urn:example:license",
+            "rightsHolderIds": [
+              "person-example"
+            ]
+          },
+          "alternateTitles": [
+            {
+              "id": "alternate-a",
+              "title": "Example title"
+            }
+          ]
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": [],
+        "contributors": [
+          {
+            "id": "person-example",
+            "name": "Example Contributor",
+            "kind": "other"
+          }
+        ],
+        "localization": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "entries": [
+            {
+              "target": {
+                "kind": "song"
+              },
+              "field": "key.mode",
+              "values": {
+                "en": "Languages and credits"
+              }
+            },
+            {
+              "target": {
+                "kind": "genre",
+                "id": "genre-open"
+              },
+              "field": "name",
+              "values": {
+                "en": "Authored genre"
+              }
+            },
+            {
+              "target": {
+                "kind": "mood",
+                "id": "mood-calm"
+              },
+              "field": "name",
+              "values": {
+                "en": "Calm"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "dependency_scope_none_with_refs",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Relative pitches and generation intent",
+          "key": {
+            "state": "tonal",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "mode": "minor"
+          },
+          "scale": {
+            "id": "scale-default",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "intervals": [
+              0,
+              2,
+              3,
+              5,
+              7,
+              8,
+              10
+            ],
+            "label": "Example scale"
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": []
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 3840,
+                "notes": [
+                  {
+                    "id": "note-a",
+                    "start": 0,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 90
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": [],
+        "relativePhrases": {
+          "status": "current",
+          "dependencies": {
+            "scope": "document"
+          },
+          "assignments": [
+            {
+              "noteId": "note-a",
+              "basis": "scaleDegree",
+              "contextId": "scale-default",
+              "anchorPitch": 64,
+              "index": 1,
+              "chromaticOffset": 0
+            }
+          ]
+        },
+        "generation": {
+          "status": "current",
+          "dependencies": {
+            "scope": "none"
+          },
+          "processes": [
+            {
+              "id": "process-a",
+              "generator": {
+                "id": "example.generator",
+                "version": "1"
+              },
+              "inputs": [
+                {
+                  "role": "scale",
+                  "ref": {
+                    "type": "scale",
+                    "id": "scale-default"
+                  },
+                  "readRange": {
+                    "start": 0,
+                    "duration": 3840
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "type": "note",
+                  "id": "note-a"
+                }
+              ],
+              "protectedNoteIds": [
+                "note-a"
+              ],
+              "targetRange": {
+                "start": 0,
+                "duration": 3840
+              },
+              "intent": {
+                "genreNames": [
+                  "Trance"
+                ],
+                "moodNames": [
+                  "Open"
+                ],
+                "groove": {
+                  "name": "Unequal pair",
+                  "unitTicks": 480,
+                  "longWeight": 2,
+                  "shortWeight": 1
+                },
+                "prompt": "Author-provided descriptive text; never execute on import.",
+                "seed": "9007199254740993"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "missing_scale_target",
+      "expected": "semantic",
+      "document": {
+        "format": "OSTF",
+        "version": "3.4.0",
+        "ppq": 960,
+        "song": {
+          "title": "Overlapping scoped scales",
+          "scale": {
+            "id": "scale-default",
+            "tonic": {
+              "step": "E",
+              "alter": 0
+            },
+            "intervals": [
+              0,
+              2,
+              3,
+              5,
+              7,
+              8,
+              10
+            ],
+            "label": "Example scale"
+          }
+        },
+        "timeline": {
+          "sections": [],
+          "tempoChanges": [
+            {
+              "at": 0,
+              "bpm": 120
+            }
+          ],
+          "meterChanges": [
+            {
+              "at": 0,
+              "numerator": 4,
+              "denominator": 4
+            }
+          ]
+        },
+        "harmony": {
+          "chords": [],
+          "scales": [
+            {
+              "id": "scale-a",
+              "tonic": {
+                "step": "E",
+                "alter": 0
+              },
+              "intervals": [
+                0,
+                2,
+                3,
+                5,
+                7,
+                8,
+                10
+              ],
+              "label": "Example scale",
+              "start": 0,
+              "duration": 3840,
+              "targets": [
+                {
+                  "type": "track",
+                  "id": "missing"
+                }
+              ]
+            },
+            {
+              "id": "scale-b",
+              "tonic": {
+                "step": "C",
+                "alter": 0
+              },
+              "intervals": [
+                0,
+                2,
+                4,
+                5,
+                7,
+                9,
+                11
+              ],
+              "label": "Example scale",
+              "start": 0,
+              "duration": 3840,
+              "targets": [
+                {
+                  "type": "clip",
+                  "id": "lead-clip"
+                }
+              ]
+            }
+          ]
+        },
+        "tracks": [
+          {
+            "id": "lead",
+            "name": "Lead",
+            "trackType": "melodic",
+            "role": "melody",
+            "clips": [
+              {
+                "id": "lead-clip",
+                "name": "Phrase",
+                "start": 0,
+                "duration": 3840,
+                "notes": [
+                  {
+                    "id": "note-a",
+                    "start": 0,
+                    "duration": 480,
+                    "pitch": 64,
+                    "velocity": 90
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "soundSlots": [],
+        "lyrics": {
+          "documents": [],
+          "phrases": [],
+          "units": [],
+          "alignments": []
+        },
+        "resources": []
+      }
+    }
+  ]
+}

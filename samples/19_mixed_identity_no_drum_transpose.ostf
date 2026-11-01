@@ -1,0 +1,103 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Distinct sound slots and mixed events"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "mixed",
+      "name": "Mixed",
+      "trackType": "mixed",
+      "drumKitId": "kit-a",
+      "clips": [
+        {
+          "id": "mixed-clip",
+          "start": 0,
+          "duration": 960,
+          "notes": [
+            {
+              "id": "pitched-36",
+              "start": 0,
+              "duration": 480,
+              "pitch": 36,
+              "velocity": 90
+            },
+            {
+              "id": "hit-a",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "kick-a",
+              "velocity": 100
+            },
+            {
+              "id": "hit-b",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "kick-b",
+              "velocity": 35
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "kick-a",
+      "name": "Kick A",
+      "role": "kick",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      }
+    },
+    {
+      "id": "kick-b",
+      "name": "Kick B",
+      "role": "kick",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 36
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "drumKits": [
+    {
+      "id": "kit-a",
+      "name": "Two distinct slots",
+      "soundSlotIds": [
+        "kick-a",
+        "kick-b"
+      ]
+    }
+  ]
+}

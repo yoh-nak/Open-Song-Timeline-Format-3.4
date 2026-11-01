@@ -1,0 +1,113 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Identity and non-executable provenance",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "D",
+        "alter": 0
+      },
+      "mode": "major"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [
+    {
+      "id": "resource-a",
+      "kind": "midi",
+      "uri": "source.mid",
+      "name": "Example source",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+    }
+  ],
+  "document": {
+    "id": "urn:example:document:one",
+    "revisionId": "urn:example:revision:two",
+    "parents": [
+      {
+        "documentId": "urn:example:document:one",
+        "revisionId": "urn:example:revision:one",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "createdBy": {
+      "name": "Example editor",
+      "version": "1.0"
+    },
+    "modifiedBy": {
+      "name": "Another editor",
+      "version": "2.0"
+    }
+  },
+  "provenance": {
+    "records": [
+      {
+        "id": "history-a",
+        "action": "transpose",
+        "description": "Committed example only, not playback transpose",
+        "tool": {
+          "name": "Example editor",
+          "version": "1.0"
+        },
+        "sources": [
+          {
+            "format": "OSTF",
+            "version": "3.3.0",
+            "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+            "uri": "urn:example:source",
+            "documentId": "urn:example:document:one",
+            "revisionId": "urn:example:revision:one",
+            "resourceId": "resource-a"
+          }
+        ],
+        "semitones": 2,
+        "beforeKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "C",
+            "alter": 0
+          },
+          "mode": "major"
+        },
+        "afterKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "D",
+            "alter": 0
+          },
+          "mode": "major"
+        }
+      }
+    ]
+  }
+}

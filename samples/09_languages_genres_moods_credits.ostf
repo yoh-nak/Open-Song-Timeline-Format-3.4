@@ -1,0 +1,120 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "言語と作者情報",
+    "languages": [
+      "ja",
+      "en"
+    ],
+    "genres": [
+      {
+        "id": "genre-open",
+        "name": "独自ジャンル",
+        "externalUri": "urn:example:genre:custom"
+      }
+    ],
+    "moods": [
+      {
+        "id": "mood-calm",
+        "name": "穏やか",
+        "externalUri": "urn:example:mood:calm"
+      }
+    ],
+    "credits": [
+      {
+        "id": "credit-composer",
+        "contributorId": "person-example",
+        "role": "composer",
+        "label": "作曲"
+      }
+    ],
+    "rights": {
+      "notice": "Illustrative statement only",
+      "licenseUri": "urn:example:license",
+      "rightsHolderIds": [
+        "person-example"
+      ]
+    },
+    "alternateTitles": [
+      {
+        "id": "alternate-a",
+        "title": "Example title"
+      }
+    ]
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "contributors": [
+    {
+      "id": "person-example",
+      "name": "Example Contributor",
+      "kind": "other"
+    }
+  ],
+  "localization": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "entries": [
+      {
+        "target": {
+          "kind": "song"
+        },
+        "field": "title",
+        "values": {
+          "en": "Languages and credits"
+        }
+      },
+      {
+        "target": {
+          "kind": "genre",
+          "id": "genre-open"
+        },
+        "field": "name",
+        "values": {
+          "en": "Authored genre"
+        }
+      },
+      {
+        "target": {
+          "kind": "mood",
+          "id": "mood-calm"
+        },
+        "field": "name",
+        "values": {
+          "en": "Calm"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Shared clips, silent candidates and parent mute"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "muted-track",
+      "name": "muted-track",
+      "clips": [
+        {
+          "id": "common",
+          "start": 0,
+          "duration": 3840,
+          "notes": [],
+          "enabled": true
+        },
+        {
+          "id": "a-only",
+          "start": 0,
+          "duration": 3840,
+          "notes": [],
+          "enabled": true
+        },
+        {
+          "id": "b-only",
+          "start": 0,
+          "duration": 3840,
+          "notes": [],
+          "enabled": false
+        },
+        {
+          "id": "silent-managed",
+          "start": 0,
+          "duration": 3840,
+          "notes": [],
+          "enabled": false
+        }
+      ],
+      "enabled": false
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "clipChoices": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "groups": [
+      {
+        "id": "group-a",
+        "name": "Shared clip choices",
+        "candidates": [
+          {
+            "id": "candidate-a",
+            "clipIds": [
+              "common",
+              "a-only"
+            ]
+          },
+          {
+            "id": "candidate-b",
+            "clipIds": [
+              "common",
+              "b-only"
+            ]
+          }
+        ],
+        "selectedCandidateId": "candidate-a"
+      },
+      {
+        "id": "group-silent",
+        "candidates": [
+          {
+            "id": "empty-choice",
+            "clipIds": []
+          },
+          {
+            "id": "audible-choice",
+            "clipIds": [
+              "silent-managed"
+            ]
+          }
+        ],
+        "selectedCandidateId": "empty-choice"
+      }
+    ]
+  }
+}

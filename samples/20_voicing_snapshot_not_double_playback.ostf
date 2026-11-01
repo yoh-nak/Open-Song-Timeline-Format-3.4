@@ -1,0 +1,91 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Voicing and performance are separate"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "chord-e",
+        "start": 0,
+        "duration": 3840,
+        "label": "Em",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            59,
+            64,
+            64
+          ],
+          "velocities": [
+            90,
+            70,
+            null,
+            40
+          ]
+        }
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "trackType": "melodic",
+      "role": "melody",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "name": "Phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-a",
+              "start": 0,
+              "duration": 480,
+              "pitch": 64,
+              "velocity": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

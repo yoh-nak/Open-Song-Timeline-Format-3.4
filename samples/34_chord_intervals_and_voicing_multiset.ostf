@@ -1,0 +1,94 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Voicing multiset, slash bass and extended intervals"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "symbol-only",
+        "start": 0,
+        "duration": 960,
+        "label": "Authored chord symbol"
+      },
+      {
+        "id": "structured",
+        "start": 960,
+        "duration": 960,
+        "label": "C(add9)/G",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "bass": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            67,
+            60,
+            64,
+            60,
+            74
+          ],
+          "velocities": [
+            null,
+            1,
+            80,
+            127,
+            null
+          ]
+        }
+      },
+      {
+        "id": "max-interval",
+        "start": 1920,
+        "duration": 960,
+        "label": "Author-defined expanded sonority",
+        "root": {
+          "step": "F",
+          "alter": -2
+        },
+        "intervals": [
+          0,
+          35
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

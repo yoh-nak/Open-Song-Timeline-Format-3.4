@@ -1,0 +1,61 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Unknown modes are retained",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "D",
+        "alter": 0
+      },
+      "mode": "My authored mode",
+      "label": "作者独自の旋法"
+    },
+    "scale": {
+      "id": "custom-scale",
+      "tonic": {
+        "step": "D",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        1,
+        4,
+        6,
+        9
+      ],
+      "label": "Example scale"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

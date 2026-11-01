@@ -1,0 +1,136 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Custom, unmapped and identical-number slots"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "mixed",
+      "name": "mixed",
+      "clips": [
+        {
+          "id": "all",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "pitched-36",
+              "start": 0,
+              "duration": 480,
+              "pitch": 36
+            },
+            {
+              "id": "slot-note-a",
+              "start": 0,
+              "duration": 480,
+              "soundSlotId": "a"
+            },
+            {
+              "id": "slot-note-b",
+              "start": 0,
+              "duration": 480,
+              "soundSlotId": "b"
+            },
+            {
+              "id": "slot-note-c",
+              "start": 0,
+              "duration": 480,
+              "soundSlotId": "c"
+            },
+            {
+              "id": "slot-note-d",
+              "start": 0,
+              "duration": 480,
+              "soundSlotId": "d"
+            },
+            {
+              "id": "slot-note-e",
+              "start": 0,
+              "duration": 480,
+              "soundSlotId": "e"
+            },
+            {
+              "id": "slot-note-f",
+              "start": 0,
+              "duration": 480,
+              "soundSlotId": "f"
+            }
+          ]
+        }
+      ],
+      "trackType": "mixed"
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "a",
+      "name": "First",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 36
+      }
+    },
+    {
+      "id": "b",
+      "name": "Second",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 36
+      }
+    },
+    {
+      "id": "c",
+      "name": "No MIDI mapping"
+    },
+    {
+      "id": "d",
+      "name": "Legacy hint only",
+      "midiNote": 42
+    },
+    {
+      "id": "e",
+      "name": "Custom zero",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 0
+      }
+    },
+    {
+      "id": "f",
+      "name": "Custom maximum",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 127
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

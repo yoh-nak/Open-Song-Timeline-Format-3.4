@@ -1,0 +1,340 @@
+{
+  "publication_version": "3.4.0",
+  "publication_edition_date": "2026-11-01",
+  "basis": "Conversation-provided OSTF 3.4 release package and its existing source archive. No claim of fetching or checking the latest remote GitHub repository.",
+  "primary_source": {
+    "name": "OSTF_3_4_0_Release_Package.zip",
+    "sha256": "21bdef4e022ac45c93f57f73088d8d0aaced2b4ccfa67033364a830c7d5e02bd",
+    "bytes": 1210211,
+    "embedded": false
+  },
+  "previous_source_archives": [
+    {
+      "name": "OSTF_3_3_0_original_package.zip",
+      "sha256": "bd985dd96fd7016f6731d7ee7189710f1751eda3b8cb323c6ef612d07f871c8b",
+      "bytes": 262624,
+      "embedded": false
+    },
+    {
+      "name": "Player_Demos_3_3_Originals.zip",
+      "sha256": "21221d2307a2f034adceff2886f8216b84ca07c2b1e45287525c92697deeb284",
+      "bytes": 463236,
+      "embedded": false
+    }
+  ],
+  "unchanged_baseline_files": [
+    {
+      "path": "docs/FORMAT_SPECIFICATION.ja.md",
+      "source_archive_member": "docs/FORMAT_SPECIFICATION.ja.md",
+      "sha256": "5db2d326d037fd2c30ecd4f8789d7c220bae7500a76fd95e71d747a240477353",
+      "bytes": 40292
+    },
+    {
+      "path": "schema/ostf-3.0.0.schema.json",
+      "source_archive_member": "schema/ostf-3.0.0.schema.json",
+      "sha256": "a2d828c928ab6654a925f845359614f274bf5b3e948f2d5ff0dc5020a121b263",
+      "bytes": 30985
+    },
+    {
+      "path": "schema/ostf-3.1.0.schema.json",
+      "source_archive_member": "schema/ostf-3.1.0.schema.json",
+      "sha256": "3f648348117581b2e28237402cab251d0a6fbd991ac0e1c6158bc201f5fc6630",
+      "bytes": 39384
+    },
+    {
+      "path": "schema/ostf-3.2.0.schema.json",
+      "source_archive_member": "schema/ostf-3.2.0.schema.json",
+      "sha256": "75e48e09f5da16407bb1c4c0dccc64852d8f3058f70d26dc132e975545b997af",
+      "bytes": 48853
+    },
+    {
+      "path": "schema/ostf-3.3.0.schema.json",
+      "source_archive_member": "schema/ostf-3.3.0.schema.json",
+      "sha256": "fd9dec04d75b1091f06253777bb7c06adfdc456c0b281f12b9cfe718353eb9f8",
+      "bytes": 49975
+    },
+    {
+      "path": "schema/ostf-3.4.0.schema.json",
+      "source_archive_member": "schema/ostf-3.4.0.schema.json",
+      "sha256": "7c9394419b7d33ae20ca5eb4001018552728cba6c010814c8597549fbd14ffc1",
+      "bytes": 118687
+    },
+    {
+      "path": "samples/01_empty_without_extensions.ostf",
+      "source_archive_member": "samples/01_empty_without_extensions.ostf",
+      "sha256": "b520ab51cd260a0b21bb4682bf1553d686c82d83b0e2d65ff832eca88b553c1c",
+      "bytes": 531
+    },
+    {
+      "path": "samples/02_trance_metadata_core_only.ostf",
+      "source_archive_member": "samples/02_trance_metadata_core_only.ostf",
+      "sha256": "b5a4ffee9a48c335516d1dc37804d302a058414aa12636d0275d6e28caa473d8",
+      "bytes": 1276
+    },
+    {
+      "path": "samples/03_modulation_atonal_and_unspecified.ostf",
+      "source_archive_member": "samples/03_modulation_atonal_and_unspecified.ostf",
+      "sha256": "903a0a22a82a59891923066ad52949f82f7ee67f91a2ccc26c6ac34f326fb474",
+      "bytes": 1459
+    },
+    {
+      "path": "samples/04_scale_without_key.ostf",
+      "source_archive_member": "samples/04_scale_without_key.ostf",
+      "sha256": "e97f8797819a4efea6b9b7129cffac56f7fba8f8ca79df8890e93a88bb8bf0c5",
+      "bytes": 814
+    },
+    {
+      "path": "samples/05_custom_mode_and_scale.ostf",
+      "source_archive_member": "samples/05_custom_mode_and_scale.ostf",
+      "sha256": "98816d7717fff91e1cf14be2a088fbed1e66cb07433d0d41398d28340caed637",
+      "bytes": 971
+    },
+    {
+      "path": "samples/06_overlapping_scale_contexts.ostf",
+      "source_archive_member": "samples/06_overlapping_scale_contexts.ostf",
+      "sha256": "522fac6b090d7fc27f5c802c6c30c3812bafc2b2df70502ff13c93d9a53567ab",
+      "bytes": 2146
+    },
+    {
+      "path": "samples/07_pickup_additive_midbar_meter.ostf",
+      "source_archive_member": "samples/07_pickup_additive_midbar_meter.ostf",
+      "sha256": "e40ada7abd7ecbc6b3ac6de359ec947b2ac278620adcac8717172a648c3707cb",
+      "bytes": 817
+    },
+    {
+      "path": "samples/08_note_pickup_and_long_tail.ostf",
+      "source_archive_member": "samples/08_note_pickup_and_long_tail.ostf",
+      "sha256": "3d7fe54212c7302df2f7e207dc4219855b2d44fdf3e4e102c5f1825c2a4bf0b3",
+      "bytes": 1057
+    },
+    {
+      "path": "samples/09_languages_genres_moods_credits.ostf",
+      "source_archive_member": "samples/09_languages_genres_moods_credits.ostf",
+      "sha256": "e03ee64c4ddc03ffe5deb6ec90815ae1805066c28dbe4ae2ce25e84c995f34e3",
+      "bytes": 2144
+    },
+    {
+      "path": "samples/10_primary_lyrics_and_alignment.ostf",
+      "source_archive_member": "samples/10_primary_lyrics_and_alignment.ostf",
+      "sha256": "d372e78eb2d12327a98ede7660419d21b6fa7dbe587ed463d787aa0ed204c69e",
+      "bytes": 1794
+    },
+    {
+      "path": "samples/11_presentation_no_extension.ostf",
+      "source_archive_member": "samples/11_presentation_no_extension.ostf",
+      "sha256": "41a5548b3fa531337e85a11f101172d08bb1048d2d89bb53f4498c08c65f15d5",
+      "bytes": 1812
+    },
+    {
+      "path": "samples/12_phrase_velocity_linked.ostf",
+      "source_archive_member": "samples/12_phrase_velocity_linked.ostf",
+      "sha256": "ca7d33ab610736321b8e8f6bb781ba4fcc86cbb3ce71c16d500f02adef9b6fde",
+      "bytes": 2163
+    },
+    {
+      "path": "samples/13_phrase_velocity_independent.ostf",
+      "source_archive_member": "samples/13_phrase_velocity_independent.ostf",
+      "sha256": "5ea1856fd931b4104dae4339db6f3fa9a481975088a6054bb572ba8d880ef4f5",
+      "bytes": 2153
+    },
+    {
+      "path": "samples/14_clip_choices_no_selection.ostf",
+      "source_archive_member": "samples/14_clip_choices_no_selection.ostf",
+      "sha256": "35e433644ecda08ffc33e13ae5a77eacc192afb7b84700705d685ca8a41f33ef",
+      "bytes": 1604
+    },
+    {
+      "path": "samples/15_relative_and_generation_intent.ostf",
+      "source_archive_member": "samples/15_relative_and_generation_intent.ostf",
+      "sha256": "ebebb6d91dadcd17799528367c82b2ee9ac3a4dfd89650702ebcd4f6bc3a36e7",
+      "bytes": 2981
+    },
+    {
+      "path": "samples/16_identity_provenance_and_transpose.ostf",
+      "source_archive_member": "samples/16_identity_provenance_and_transpose.ostf",
+      "sha256": "f85fb5fe5cdcc92a7fdce634533f4eac44c85f31db1ce5071225dfceb3592323",
+      "bytes": 2441
+    },
+    {
+      "path": "samples/17_legacy_conflict_core_wins.ostf",
+      "source_archive_member": "samples/17_legacy_conflict_core_wins.ostf",
+      "sha256": "9f5209034e5d2a8b5b88709dc7d373332f77fcc398e46f00647f43bec5a36e0a",
+      "bytes": 1211
+    },
+    {
+      "path": "samples/18_stale_missing_relation.ostf",
+      "source_archive_member": "samples/18_stale_missing_relation.ostf",
+      "sha256": "0539d8e3020f41417712c708463ac982d418bc5bfa5d4e2eaa15dd80a43dc87e",
+      "bytes": 907
+    },
+    {
+      "path": "samples/19_mixed_identity_no_drum_transpose.ostf",
+      "source_archive_member": "samples/19_mixed_identity_no_drum_transpose.ostf",
+      "sha256": "6ae44e46b68b5672e3f903b58e4af89109f48cbe23d9b3fe3be3537f009e769c",
+      "bytes": 1860
+    },
+    {
+      "path": "samples/20_voicing_snapshot_not_double_playback.ostf",
+      "source_archive_member": "samples/20_voicing_snapshot_not_double_playback.ostf",
+      "sha256": "8821df7b68deddb913f8583d86aac4d6c701356e8eb897fb97581dcf65a28bd1",
+      "bytes": 1527
+    },
+    {
+      "path": "samples/21_native_drum_template_velocity.ostf",
+      "source_archive_member": "samples/21_native_drum_template_velocity.ostf",
+      "sha256": "05bbf363603d59d5269f8f248236a3eb9edc87985db32c77b5e68e3cad87c76c",
+      "bytes": 2339
+    },
+    {
+      "path": "samples/22_explicit_dependency_scopes.ostf",
+      "source_archive_member": "samples/22_explicit_dependency_scopes.ostf",
+      "sha256": "1a358c0bfdeba6f98f398c9be0ffce8548115295ecf256f67d6a658e5e3fefd9",
+      "bytes": 3445
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_01_Pop_City_Lights_Again.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_01_Pop_City_Lights_Again.ostf",
+      "sha256": "765ae3bd5227b88a0d34fa2790d549def49414b464ae2bf5202e9a7858ab7ed1",
+      "bytes": 979921
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_02_Rock_Against_the_Current.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_02_Rock_Against_the_Current.ostf",
+      "sha256": "918f5a74c2f544bc00095b5af20f8d6bf65cda1e83634210fff48501f759230a",
+      "bytes": 983541
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_03_Ballad_The_Last_Train_Home.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_03_Ballad_The_Last_Train_Home.ostf",
+      "sha256": "864bc7f82f19b7c67232bcf370392196a680102de07cbce8c8132d58cf52e04a",
+      "bytes": 558929
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_04_Jazz_Swing_After_Midnight.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_04_Jazz_Swing_After_Midnight.ostf",
+      "sha256": "c13dda0758a9586a5b14bbdd36ec3374b618e65f61bd470c66cae876b72a3678",
+      "bytes": 859330
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+      "sha256": "86512bab96942943af37a30ff063689469b7ae71bd042defc8ef2471b5949811",
+      "bytes": 925855
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+      "sha256": "1560a65a44675c8fee5aec7e8aa1227754d86c5d3973a76638af816c9bcf74b6",
+      "bytes": 661962
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+      "sha256": "78b000b3c4c0ef2dc06145fdfd4987aede7f351c940782ba44300e187b1cfb36",
+      "bytes": 821124
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_08_House_Open_Till_Sunrise.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_08_House_Open_Till_Sunrise.ostf",
+      "sha256": "37cd7db6663111716be7b0ff56de4e5a9f1122be58715d0f433a52cef9bbf0d5",
+      "bytes": 1332456
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_09_Techno_Circuit_After_Dark.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_09_Techno_Circuit_After_Dark.ostf",
+      "sha256": "fc43cf7ff6d4c140264d866bfcb31d735c73a2ef4b81c288fbaaade88ed593e4",
+      "bytes": 1221158
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_10_Trance_Above_the_Horizon.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_10_Trance_Above_the_Horizon.ostf",
+      "sha256": "354fc9a93a77220805b94b6ad01cac328cbfec7266b3e3158e7449389b56c263",
+      "bytes": 1620402
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_11_Feature_Shifting_Ground.ostf",
+      "source_archive_member": "demos/OSTF3.4_Demo_11_Feature_Shifting_Ground.ostf",
+      "sha256": "365373e82a35f5e525e2bceb9d5a06db47ac26cff1064bcb64ff1993ce4e41eb",
+      "bytes": 62008
+    }
+  ],
+  "original_demo_sources": [
+    {
+      "name": "OSTF3.3_Demo_01_Pop_City_Lights_Again.ostf",
+      "sha256": "01220a2933d60fa1a1d619b51050d30850d457e42f165a2c4768aab620924b10",
+      "bytes": 979989,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_02_Rock_Against_the_Current.ostf",
+      "sha256": "a14863b56d174ff5cd54eef79c912da048eb1e347e7f6762c1561b23520ae79b",
+      "bytes": 983608,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_03_Ballad_The_Last_Train_Home.ostf",
+      "sha256": "cc40ea88169d4874caea3480518d93b1ace0e365cab9679fe4910dcf4d3b2d58",
+      "bytes": 558648,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_04_Jazz_Swing_After_Midnight.ostf",
+      "sha256": "7aaf85dcb319fa4c6250c374c0dfaf17fe41f50c01eb933c6c588d014f05ef36",
+      "bytes": 859222,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+      "sha256": "1585c4599736563bd68d69a5ce6990be83c74351755418d7186a530749d7d135",
+      "bytes": 925932,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+      "sha256": "8ed8c1d83ac9894509e7f5bc2ca270853f5419fb727da2e83dfdcea6d2d47e01",
+      "bytes": 661677,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+      "sha256": "4e9d4059ce67d5be1a7a8b78541f5a3954420d152a0a3e487ec012d71c6dcc9b",
+      "bytes": 820945,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_08_House_Open_Till_Sunrise.ostf",
+      "sha256": "d92152ce33c9d396c1c58a36bdf8e7ec947c89c1743ed38b5ab198c872e5d03b",
+      "bytes": 1332605,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_09_Techno_Circuit_After_Dark.ostf",
+      "sha256": "59280dafb4ebaa0cf2e0a234c0c4332f8e8d9161602502c0098a3519c8cf5a2f",
+      "bytes": 1221656,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_10_Trance_Above_the_Horizon(1).ostf",
+      "sha256": "e804b91011d11e667df125382f399f78a41f5af19e174c0473c5220efda2737c",
+      "bytes": 1620791,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    },
+    {
+      "name": "OSTF3.3_Demo_11_Feature_Shifting_Ground.ostf",
+      "sha256": "be90c1a82fce2c9cbf08b93ce0c5ef0afcd0ae6f1caa677cf8aa36598c12c38a",
+      "bytes": 61060,
+      "role": "Original 3.3 demo; retained in the earlier release package, not embedded here"
+    }
+  ],
+  "changes": [
+    "Added bilingual full manuals, complete English specification translation and full schema-derived references.",
+    "Added 32 small synthetic examples, complete current field/enum witnesses and indexing.",
+    "Updated packaging links, source inventory, static tools, readiness and manifest.",
+    "Corrected the license material-title version from 3.3 to 3.4; retained inherited terms and original demo-rights boundary.",
+    "Removed nested legacy archives from this edition rather than hiding files under the 100-file limit."
+  ],
+  "semantic_authority_unchanged": true,
+  "schema_bytes_unchanged": true,
+  "runtime_testing": "Not performed. No Live/Max/device/UI/audio/MIDI/generator execution.",
+  "rights": "The supplied license is retained. Source conversion does not assign new authorship or licenses to separately supplied songs."
+}

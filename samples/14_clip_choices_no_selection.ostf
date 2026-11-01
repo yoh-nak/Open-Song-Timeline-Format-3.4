@@ -1,0 +1,89 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Shared candidates and explicit silence"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "trackType": "melodic",
+      "role": "melody",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "name": "Phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-a",
+              "start": 0,
+              "duration": 480,
+              "pitch": 64,
+              "velocity": 90
+            }
+          ],
+          "enabled": false
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "clipChoices": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "groups": [
+      {
+        "id": "group-a",
+        "name": "Candidates",
+        "candidates": [
+          {
+            "id": "candidate-a",
+            "name": "Phrase",
+            "clipIds": [
+              "lead-clip"
+            ]
+          },
+          {
+            "id": "candidate-silent",
+            "name": "Silence",
+            "clipIds": []
+          }
+        ],
+        "selectedCandidateId": null
+      }
+    ]
+  }
+}

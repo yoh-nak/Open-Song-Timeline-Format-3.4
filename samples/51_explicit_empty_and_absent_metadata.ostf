@@ -1,0 +1,61 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "genres": [],
+    "moods": [],
+    "languages": [],
+    "credits": [],
+    "alternateTitles": [],
+    "key": {
+      "state": "unspecified",
+      "label": ""
+    },
+    "rights": {
+      "notice": ""
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 0,
+    "keyChanges": []
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "document": {
+    "id": "urn:example:empty",
+    "revisionId": "urn:example:r1",
+    "parents": []
+  },
+  "provenance": {
+    "records": []
+  }
+}

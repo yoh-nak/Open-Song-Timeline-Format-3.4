@@ -1,0 +1,83 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Pickups, overlapping voices and long gates"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 2400
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "overlaps",
+      "name": "overlaps",
+      "clips": [
+        {
+          "id": "c1",
+          "start": 960,
+          "duration": 960,
+          "notes": [
+            {
+              "id": "a",
+              "start": -480,
+              "duration": 2400,
+              "pitch": 60
+            },
+            {
+              "id": "b",
+              "start": 0,
+              "duration": 1440,
+              "pitch": 60
+            },
+            {
+              "id": "c",
+              "start": 0,
+              "duration": 480,
+              "pitch": 60
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "start": 1440,
+          "duration": 960,
+          "notes": [
+            {
+              "id": "d",
+              "start": 0,
+              "duration": 2400,
+              "pitch": 60
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

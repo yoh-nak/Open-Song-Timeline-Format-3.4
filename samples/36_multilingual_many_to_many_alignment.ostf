@@ -1,0 +1,138 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Parallel lyrics with many-to-many note alignment",
+    "languages": [
+      "ja",
+      "en"
+    ],
+    "primaryLyricDocumentId": "ja-doc",
+    "primaryMelodyTrackId": "melody"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "melody",
+      "name": "melody",
+      "clips": [
+        {
+          "id": "phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "a",
+              "start": 0,
+              "duration": 480,
+              "pitch": 60
+            },
+            {
+              "id": "b",
+              "start": 480,
+              "duration": 480,
+              "pitch": 62
+            },
+            {
+              "id": "c",
+              "start": 960,
+              "duration": 480,
+              "pitch": 64
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "ja-doc",
+        "language": "ja",
+        "title": "日本語原文"
+      },
+      {
+        "id": "en-doc",
+        "language": "en",
+        "title": "English lyric version"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "ja-line",
+        "documentId": "ja-doc",
+        "text": "青い空"
+      },
+      {
+        "id": "en-line",
+        "documentId": "en-doc",
+        "text": "The open sky"
+      }
+    ],
+    "units": [
+      {
+        "id": "ja-u",
+        "phraseId": "ja-line",
+        "text": "青い空",
+        "pronunciation": "あおいそら"
+      },
+      {
+        "id": "en-u1",
+        "phraseId": "en-line",
+        "text": "The open"
+      },
+      {
+        "id": "en-u2",
+        "phraseId": "en-line",
+        "text": "sky"
+      }
+    ],
+    "alignments": [
+      {
+        "id": "ja-align",
+        "unitIds": [
+          "ja-u"
+        ],
+        "noteIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": "en-align",
+        "unitIds": [
+          "en-u1",
+          "en-u2"
+        ],
+        "noteIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    ]
+  },
+  "resources": []
+}

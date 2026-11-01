@@ -1,0 +1,103 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Multiple lyrics",
+    "primaryLyricDocumentId": "lyrics-ja",
+    "languages": [
+      "ja",
+      "en"
+    ]
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "trackType": "melodic",
+      "role": "melody",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "name": "Phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-a",
+              "start": 0,
+              "duration": 480,
+              "pitch": 64,
+              "velocity": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "lyrics-ja",
+        "title": "日本語歌詞",
+        "language": "ja"
+      },
+      {
+        "id": "lyrics-en",
+        "title": "English lyrics",
+        "language": "en"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "phrase-ja",
+        "documentId": "lyrics-ja",
+        "text": "あさ",
+        "pronunciation": "あさ",
+        "start": 0,
+        "duration": 480
+      }
+    ],
+    "units": [
+      {
+        "id": "unit-ja",
+        "phraseId": "phrase-ja",
+        "text": "あさ",
+        "pronunciation": "あさ"
+      }
+    ],
+    "alignments": [
+      {
+        "id": "align-ja",
+        "unitIds": [
+          "unit-ja"
+        ],
+        "noteIds": [
+          "note-a"
+        ]
+      }
+    ]
+  },
+  "resources": []
+}

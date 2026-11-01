@@ -1,0 +1,66 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Integer and MIDI boundaries: static inspection, not a playback demo"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 9007199254740991
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "boundary",
+      "name": "boundary",
+      "clips": [
+        {
+          "id": "full",
+          "start": 0,
+          "duration": 9007199254740991,
+          "notes": [
+            {
+              "id": "lowest",
+              "start": 0,
+              "duration": 9007199254740991,
+              "pitch": 0,
+              "velocity": 1
+            },
+            {
+              "id": "highest",
+              "start": 0,
+              "duration": 1,
+              "pitch": 127,
+              "velocity": 127
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

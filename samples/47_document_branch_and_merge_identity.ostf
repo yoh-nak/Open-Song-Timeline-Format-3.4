@@ -1,0 +1,77 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Branch and merge identity is not authorization"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "document": {
+    "id": "urn:example:work",
+    "revisionId": "urn:example:merge-r3",
+    "parents": [
+      {
+        "documentId": "urn:example:work",
+        "revisionId": "urn:example:branch-a"
+      },
+      {
+        "documentId": "urn:example:work",
+        "revisionId": "urn:example:branch-b"
+      }
+    ],
+    "createdBy": {
+      "name": "Example Creator"
+    },
+    "modifiedBy": {
+      "name": "Example Merger",
+      "version": "1"
+    }
+  },
+  "provenance": {
+    "records": [
+      {
+        "id": "merge-record",
+        "action": "merge",
+        "description": "Illustrative merge only; no runtime merge was performed.",
+        "sources": [
+          {
+            "documentId": "urn:example:work",
+            "revisionId": "urn:example:branch-a"
+          },
+          {
+            "documentId": "urn:example:work",
+            "revisionId": "urn:example:branch-b"
+          }
+        ]
+      }
+    ]
+  }
+}

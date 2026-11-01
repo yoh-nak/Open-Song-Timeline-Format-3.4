@@ -1,0 +1,53 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Stale relationships are retained, never applied"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "relativePhrases": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "document"
+    },
+    "assignments": [
+      {
+        "noteId": "removed-note",
+        "basis": "scaleDegree",
+        "contextId": "removed-scale",
+        "anchorPitch": 60,
+        "index": 1,
+        "chromaticOffset": 0
+      }
+    ]
+  }
+}

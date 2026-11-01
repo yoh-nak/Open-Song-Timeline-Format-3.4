@@ -1,0 +1,129 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Overlapping scoped scales",
+    "scale": {
+      "id": "scale-default",
+      "tonic": {
+        "step": "E",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "label": "Example scale"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": [
+      {
+        "id": "scale-a",
+        "tonic": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10
+        ],
+        "label": "Example scale",
+        "start": 0,
+        "duration": 3840,
+        "targets": [
+          {
+            "type": "track",
+            "id": "lead"
+          }
+        ]
+      },
+      {
+        "id": "scale-b",
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ],
+        "label": "Example scale",
+        "start": 0,
+        "duration": 3840,
+        "targets": [
+          {
+            "type": "clip",
+            "id": "lead-clip"
+          }
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "trackType": "melodic",
+      "role": "melody",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "name": "Phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-a",
+              "start": 0,
+              "duration": 480,
+              "pitch": 64,
+              "velocity": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

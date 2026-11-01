@@ -1,0 +1,69 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Legacy extension cannot override Core",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "E",
+        "alter": 0
+      },
+      "mode": "minor"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {
+    "org.yohnak.player.metadata": {
+      "version": "1.0.0",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "document"
+      },
+      "data": {
+        "originalKey": "C major",
+        "genre": "Pop"
+      }
+    },
+    "com.example.future": {
+      "version": "9",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "none"
+      },
+      "data": {
+        "opaqueInteger": 9007199254740993,
+        "preserve": "unknown values"
+      }
+    }
+  }
+}

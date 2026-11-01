@@ -1,0 +1,60 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Opaque future payload: retain exact numeric tokens"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {
+    "com.example.future": {
+      "version": "999",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "none"
+      },
+      "data": {
+        "integer": 9007199254740993,
+        "decimal": 1e400,
+        "tiny": 1e-400,
+        "integerLookingReal": 1.0,
+        "values": [
+          null,
+          true,
+          false,
+          "text",
+          [],
+          {}
+        ]
+      }
+    }
+  }
+}

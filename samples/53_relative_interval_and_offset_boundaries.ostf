@@ -1,0 +1,157 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Relative degrees are ordered interval indexes",
+    "scale": {
+      "id": "chromatic-scale",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "chromatic-chord",
+        "start": 0,
+        "duration": 3840,
+        "label": "36-entry authored sonority",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "t",
+      "name": "t",
+      "clips": [
+        {
+          "id": "c",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "chord-note",
+              "start": 0,
+              "duration": 480,
+              "pitch": 71
+            },
+            {
+              "id": "scale-note",
+              "start": 480,
+              "duration": 480,
+              "pitch": 95
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "relativePhrases": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "assignments": [
+      {
+        "noteId": "chord-note",
+        "basis": "chordTone",
+        "contextId": "chromatic-chord",
+        "anchorPitch": 60,
+        "index": 36,
+        "chromaticOffset": -24
+      },
+      {
+        "noteId": "scale-note",
+        "basis": "scaleDegree",
+        "contextId": "chromatic-scale",
+        "anchorPitch": 60,
+        "index": 12,
+        "chromaticOffset": 24
+      }
+    ]
+  }
+}

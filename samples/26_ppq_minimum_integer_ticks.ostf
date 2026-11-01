@@ -1,0 +1,57 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 1,
+  "song": {
+    "title": "PPQ minimum"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 1,
+        "denominator": 64
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "t",
+      "name": "t",
+      "clips": [
+        {
+          "id": "c",
+          "start": 0,
+          "duration": 1,
+          "notes": [
+            {
+              "id": "n",
+              "start": 0,
+              "duration": 1,
+              "pitch": 60
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

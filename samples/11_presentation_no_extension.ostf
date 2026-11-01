@@ -1,0 +1,103 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Core presentation"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "section-a",
+        "name": "A",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "trackType": "melodic",
+      "role": "melody",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "name": "Phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-a",
+              "start": 0,
+              "duration": 480,
+              "pitch": 64,
+              "velocity": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "presentation": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "roleDefinitions": [
+      {
+        "id": "role-intro",
+        "name": "Opening",
+        "baseRole": "intro"
+      }
+    ],
+    "sectionRoleAssignments": {
+      "section-a": "role-intro"
+    },
+    "appearance": {
+      "roleColors": {
+        "verse": "#123456",
+        "intro": "#456789"
+      },
+      "customRoleColors": {
+        "role-intro": "#ABCDEF"
+      },
+      "objectColors": [
+        {
+          "target": {
+            "type": "track",
+            "id": "lead"
+          },
+          "color": "#234567"
+        }
+      ]
+    }
+  }
+}

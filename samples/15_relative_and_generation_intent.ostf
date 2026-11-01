@@ -1,0 +1,159 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Relative pitches and generation intent",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "E",
+        "alter": 0
+      },
+      "mode": "minor"
+    },
+    "scale": {
+      "id": "scale-default",
+      "tonic": {
+        "step": "E",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "label": "Example scale"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "trackType": "melodic",
+      "role": "melody",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "name": "Phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-a",
+              "start": 0,
+              "duration": 480,
+              "pitch": 64,
+              "velocity": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "relativePhrases": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "assignments": [
+      {
+        "noteId": "note-a",
+        "basis": "scaleDegree",
+        "contextId": "scale-default",
+        "anchorPitch": 64,
+        "index": 1,
+        "chromaticOffset": 0
+      }
+    ]
+  },
+  "generation": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "processes": [
+      {
+        "id": "process-a",
+        "generator": {
+          "id": "example.generator",
+          "version": "1"
+        },
+        "inputs": [
+          {
+            "role": "scale",
+            "ref": {
+              "type": "scale",
+              "id": "scale-default"
+            },
+            "readRange": {
+              "start": 0,
+              "duration": 3840
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "type": "note",
+            "id": "note-a"
+          }
+        ],
+        "protectedNoteIds": [
+          "note-a"
+        ],
+        "targetRange": {
+          "start": 0,
+          "duration": 3840
+        },
+        "intent": {
+          "genreNames": [
+            "Trance"
+          ],
+          "moodNames": [
+            "Open"
+          ],
+          "groove": {
+            "name": "Unequal pair",
+            "unitTicks": 480,
+            "longWeight": 2,
+            "shortWeight": 1
+          },
+          "prompt": "Author-provided descriptive text; never execute on import.",
+          "seed": "9007199254740993"
+        }
+      }
+    ]
+  }
+}

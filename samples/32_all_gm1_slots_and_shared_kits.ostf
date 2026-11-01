@@ -1,0 +1,776 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "All GM1 slot numbers and shared kit membership"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "gm-drums",
+      "name": "gm-drums",
+      "clips": [
+        {
+          "id": "gm-sequence",
+          "start": 0,
+          "duration": 6000,
+          "notes": [
+            {
+              "id": "event-35",
+              "start": 0,
+              "duration": 60,
+              "soundSlotId": "slot-35"
+            },
+            {
+              "id": "event-36",
+              "start": 120,
+              "duration": 60,
+              "soundSlotId": "slot-36"
+            },
+            {
+              "id": "event-37",
+              "start": 240,
+              "duration": 60,
+              "soundSlotId": "slot-37"
+            },
+            {
+              "id": "event-38",
+              "start": 360,
+              "duration": 60,
+              "soundSlotId": "slot-38"
+            },
+            {
+              "id": "event-39",
+              "start": 480,
+              "duration": 60,
+              "soundSlotId": "slot-39"
+            },
+            {
+              "id": "event-40",
+              "start": 600,
+              "duration": 60,
+              "soundSlotId": "slot-40"
+            },
+            {
+              "id": "event-41",
+              "start": 720,
+              "duration": 60,
+              "soundSlotId": "slot-41"
+            },
+            {
+              "id": "event-42",
+              "start": 840,
+              "duration": 60,
+              "soundSlotId": "slot-42"
+            },
+            {
+              "id": "event-43",
+              "start": 960,
+              "duration": 60,
+              "soundSlotId": "slot-43"
+            },
+            {
+              "id": "event-44",
+              "start": 1080,
+              "duration": 60,
+              "soundSlotId": "slot-44"
+            },
+            {
+              "id": "event-45",
+              "start": 1200,
+              "duration": 60,
+              "soundSlotId": "slot-45"
+            },
+            {
+              "id": "event-46",
+              "start": 1320,
+              "duration": 60,
+              "soundSlotId": "slot-46"
+            },
+            {
+              "id": "event-47",
+              "start": 1440,
+              "duration": 60,
+              "soundSlotId": "slot-47"
+            },
+            {
+              "id": "event-48",
+              "start": 1560,
+              "duration": 60,
+              "soundSlotId": "slot-48"
+            },
+            {
+              "id": "event-49",
+              "start": 1680,
+              "duration": 60,
+              "soundSlotId": "slot-49"
+            },
+            {
+              "id": "event-50",
+              "start": 1800,
+              "duration": 60,
+              "soundSlotId": "slot-50"
+            },
+            {
+              "id": "event-51",
+              "start": 1920,
+              "duration": 60,
+              "soundSlotId": "slot-51"
+            },
+            {
+              "id": "event-52",
+              "start": 2040,
+              "duration": 60,
+              "soundSlotId": "slot-52"
+            },
+            {
+              "id": "event-53",
+              "start": 2160,
+              "duration": 60,
+              "soundSlotId": "slot-53"
+            },
+            {
+              "id": "event-54",
+              "start": 2280,
+              "duration": 60,
+              "soundSlotId": "slot-54"
+            },
+            {
+              "id": "event-55",
+              "start": 2400,
+              "duration": 60,
+              "soundSlotId": "slot-55"
+            },
+            {
+              "id": "event-56",
+              "start": 2520,
+              "duration": 60,
+              "soundSlotId": "slot-56"
+            },
+            {
+              "id": "event-57",
+              "start": 2640,
+              "duration": 60,
+              "soundSlotId": "slot-57"
+            },
+            {
+              "id": "event-58",
+              "start": 2760,
+              "duration": 60,
+              "soundSlotId": "slot-58"
+            },
+            {
+              "id": "event-59",
+              "start": 2880,
+              "duration": 60,
+              "soundSlotId": "slot-59"
+            },
+            {
+              "id": "event-60",
+              "start": 3000,
+              "duration": 60,
+              "soundSlotId": "slot-60"
+            },
+            {
+              "id": "event-61",
+              "start": 3120,
+              "duration": 60,
+              "soundSlotId": "slot-61"
+            },
+            {
+              "id": "event-62",
+              "start": 3240,
+              "duration": 60,
+              "soundSlotId": "slot-62"
+            },
+            {
+              "id": "event-63",
+              "start": 3360,
+              "duration": 60,
+              "soundSlotId": "slot-63"
+            },
+            {
+              "id": "event-64",
+              "start": 3480,
+              "duration": 60,
+              "soundSlotId": "slot-64"
+            },
+            {
+              "id": "event-65",
+              "start": 3600,
+              "duration": 60,
+              "soundSlotId": "slot-65"
+            },
+            {
+              "id": "event-66",
+              "start": 3720,
+              "duration": 60,
+              "soundSlotId": "slot-66"
+            },
+            {
+              "id": "event-67",
+              "start": 3840,
+              "duration": 60,
+              "soundSlotId": "slot-67"
+            },
+            {
+              "id": "event-68",
+              "start": 3960,
+              "duration": 60,
+              "soundSlotId": "slot-68"
+            },
+            {
+              "id": "event-69",
+              "start": 4080,
+              "duration": 60,
+              "soundSlotId": "slot-69"
+            },
+            {
+              "id": "event-70",
+              "start": 4200,
+              "duration": 60,
+              "soundSlotId": "slot-70"
+            },
+            {
+              "id": "event-71",
+              "start": 4320,
+              "duration": 60,
+              "soundSlotId": "slot-71"
+            },
+            {
+              "id": "event-72",
+              "start": 4440,
+              "duration": 60,
+              "soundSlotId": "slot-72"
+            },
+            {
+              "id": "event-73",
+              "start": 4560,
+              "duration": 60,
+              "soundSlotId": "slot-73"
+            },
+            {
+              "id": "event-74",
+              "start": 4680,
+              "duration": 60,
+              "soundSlotId": "slot-74"
+            },
+            {
+              "id": "event-75",
+              "start": 4800,
+              "duration": 60,
+              "soundSlotId": "slot-75"
+            },
+            {
+              "id": "event-76",
+              "start": 4920,
+              "duration": 60,
+              "soundSlotId": "slot-76"
+            },
+            {
+              "id": "event-77",
+              "start": 5040,
+              "duration": 60,
+              "soundSlotId": "slot-77"
+            },
+            {
+              "id": "event-78",
+              "start": 5160,
+              "duration": 60,
+              "soundSlotId": "slot-78"
+            },
+            {
+              "id": "event-79",
+              "start": 5280,
+              "duration": 60,
+              "soundSlotId": "slot-79"
+            },
+            {
+              "id": "event-80",
+              "start": 5400,
+              "duration": 60,
+              "soundSlotId": "slot-80"
+            },
+            {
+              "id": "event-81",
+              "start": 5520,
+              "duration": 60,
+              "soundSlotId": "slot-81"
+            }
+          ]
+        }
+      ],
+      "trackType": "drum",
+      "drumKitId": "gm-kit",
+      "preferredView": "drumGrid"
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "slot-35",
+      "name": "GM1 percussion 35",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 35
+      }
+    },
+    {
+      "id": "slot-36",
+      "name": "GM1 percussion 36",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      }
+    },
+    {
+      "id": "slot-37",
+      "name": "GM1 percussion 37",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 37
+      }
+    },
+    {
+      "id": "slot-38",
+      "name": "GM1 percussion 38",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 38
+      }
+    },
+    {
+      "id": "slot-39",
+      "name": "GM1 percussion 39",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 39
+      }
+    },
+    {
+      "id": "slot-40",
+      "name": "GM1 percussion 40",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 40
+      }
+    },
+    {
+      "id": "slot-41",
+      "name": "GM1 percussion 41",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 41
+      }
+    },
+    {
+      "id": "slot-42",
+      "name": "GM1 percussion 42",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 42
+      }
+    },
+    {
+      "id": "slot-43",
+      "name": "GM1 percussion 43",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 43
+      }
+    },
+    {
+      "id": "slot-44",
+      "name": "GM1 percussion 44",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 44
+      }
+    },
+    {
+      "id": "slot-45",
+      "name": "GM1 percussion 45",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 45
+      }
+    },
+    {
+      "id": "slot-46",
+      "name": "GM1 percussion 46",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 46
+      }
+    },
+    {
+      "id": "slot-47",
+      "name": "GM1 percussion 47",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 47
+      }
+    },
+    {
+      "id": "slot-48",
+      "name": "GM1 percussion 48",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 48
+      }
+    },
+    {
+      "id": "slot-49",
+      "name": "GM1 percussion 49",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 49
+      }
+    },
+    {
+      "id": "slot-50",
+      "name": "GM1 percussion 50",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 50
+      }
+    },
+    {
+      "id": "slot-51",
+      "name": "GM1 percussion 51",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 51
+      }
+    },
+    {
+      "id": "slot-52",
+      "name": "GM1 percussion 52",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 52
+      }
+    },
+    {
+      "id": "slot-53",
+      "name": "GM1 percussion 53",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 53
+      }
+    },
+    {
+      "id": "slot-54",
+      "name": "GM1 percussion 54",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 54
+      }
+    },
+    {
+      "id": "slot-55",
+      "name": "GM1 percussion 55",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 55
+      }
+    },
+    {
+      "id": "slot-56",
+      "name": "GM1 percussion 56",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 56
+      }
+    },
+    {
+      "id": "slot-57",
+      "name": "GM1 percussion 57",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 57
+      }
+    },
+    {
+      "id": "slot-58",
+      "name": "GM1 percussion 58",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 58
+      }
+    },
+    {
+      "id": "slot-59",
+      "name": "GM1 percussion 59",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 59
+      }
+    },
+    {
+      "id": "slot-60",
+      "name": "GM1 percussion 60",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 60
+      }
+    },
+    {
+      "id": "slot-61",
+      "name": "GM1 percussion 61",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 61
+      }
+    },
+    {
+      "id": "slot-62",
+      "name": "GM1 percussion 62",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 62
+      }
+    },
+    {
+      "id": "slot-63",
+      "name": "GM1 percussion 63",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 63
+      }
+    },
+    {
+      "id": "slot-64",
+      "name": "GM1 percussion 64",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 64
+      }
+    },
+    {
+      "id": "slot-65",
+      "name": "GM1 percussion 65",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 65
+      }
+    },
+    {
+      "id": "slot-66",
+      "name": "GM1 percussion 66",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 66
+      }
+    },
+    {
+      "id": "slot-67",
+      "name": "GM1 percussion 67",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 67
+      }
+    },
+    {
+      "id": "slot-68",
+      "name": "GM1 percussion 68",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 68
+      }
+    },
+    {
+      "id": "slot-69",
+      "name": "GM1 percussion 69",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 69
+      }
+    },
+    {
+      "id": "slot-70",
+      "name": "GM1 percussion 70",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 70
+      }
+    },
+    {
+      "id": "slot-71",
+      "name": "GM1 percussion 71",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 71
+      }
+    },
+    {
+      "id": "slot-72",
+      "name": "GM1 percussion 72",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 72
+      }
+    },
+    {
+      "id": "slot-73",
+      "name": "GM1 percussion 73",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 73
+      }
+    },
+    {
+      "id": "slot-74",
+      "name": "GM1 percussion 74",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 74
+      }
+    },
+    {
+      "id": "slot-75",
+      "name": "GM1 percussion 75",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 75
+      }
+    },
+    {
+      "id": "slot-76",
+      "name": "GM1 percussion 76",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 76
+      }
+    },
+    {
+      "id": "slot-77",
+      "name": "GM1 percussion 77",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 77
+      }
+    },
+    {
+      "id": "slot-78",
+      "name": "GM1 percussion 78",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 78
+      }
+    },
+    {
+      "id": "slot-79",
+      "name": "GM1 percussion 79",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 79
+      }
+    },
+    {
+      "id": "slot-80",
+      "name": "GM1 percussion 80",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 80
+      }
+    },
+    {
+      "id": "slot-81",
+      "name": "GM1 percussion 81",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 81
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "drumKits": [
+    {
+      "id": "gm-kit",
+      "name": "GM1 slots",
+      "soundSlotIds": [
+        "slot-35",
+        "slot-36",
+        "slot-37",
+        "slot-38",
+        "slot-39",
+        "slot-40",
+        "slot-41",
+        "slot-42",
+        "slot-43",
+        "slot-44",
+        "slot-45",
+        "slot-46",
+        "slot-47",
+        "slot-48",
+        "slot-49",
+        "slot-50",
+        "slot-51",
+        "slot-52",
+        "slot-53",
+        "slot-54",
+        "slot-55",
+        "slot-56",
+        "slot-57",
+        "slot-58",
+        "slot-59",
+        "slot-60",
+        "slot-61",
+        "slot-62",
+        "slot-63",
+        "slot-64",
+        "slot-65",
+        "slot-66",
+        "slot-67",
+        "slot-68",
+        "slot-69",
+        "slot-70",
+        "slot-71",
+        "slot-72",
+        "slot-73",
+        "slot-74",
+        "slot-75",
+        "slot-76",
+        "slot-77",
+        "slot-78",
+        "slot-79",
+        "slot-80",
+        "slot-81"
+      ]
+    },
+    {
+      "id": "small-kit",
+      "name": "Shared subset",
+      "soundSlotIds": [
+        "slot-35",
+        "slot-38"
+      ]
+    }
+  ]
+}

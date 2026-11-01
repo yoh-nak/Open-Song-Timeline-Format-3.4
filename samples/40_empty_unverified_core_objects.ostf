@@ -1,0 +1,86 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Empty Core editing objects in unverified state"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "relativePhrases": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "none"
+    },
+    "assignments": []
+  },
+  "generation": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "none"
+    },
+    "processes": []
+  },
+  "presentation": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "none"
+    },
+    "roleDefinitions": [],
+    "sectionRoleAssignments": {},
+    "appearance": {
+      "roleColors": {},
+      "customRoleColors": {},
+      "objectColors": []
+    }
+  },
+  "phraseLibrary": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "none"
+    },
+    "templates": [],
+    "instances": []
+  },
+  "clipChoices": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "none"
+    },
+    "groups": []
+  },
+  "localization": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "none"
+    },
+    "entries": []
+  }
+}

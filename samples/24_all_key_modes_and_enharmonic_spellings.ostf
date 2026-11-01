@@ -1,0 +1,164 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Keys, modes and authored spellings",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "keyChanges": [
+      {
+        "id": "key-0",
+        "at": 960,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "C",
+            "alter": -2
+          },
+          "mode": "major"
+        },
+        "label": "Authored change 1"
+      },
+      {
+        "id": "key-1",
+        "at": 1920,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "D",
+            "alter": -1
+          },
+          "mode": "minor"
+        },
+        "label": "Authored change 2"
+      },
+      {
+        "id": "key-2",
+        "at": 2880,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "E",
+            "alter": 0
+          },
+          "mode": "dorian"
+        },
+        "label": "Authored change 3"
+      },
+      {
+        "id": "key-3",
+        "at": 3840,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "F",
+            "alter": 1
+          },
+          "mode": "phrygian"
+        },
+        "label": "Authored change 4"
+      },
+      {
+        "id": "key-4",
+        "at": 4800,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "G",
+            "alter": 2
+          },
+          "mode": "lydian"
+        },
+        "label": "Authored change 5"
+      },
+      {
+        "id": "key-5",
+        "at": 5760,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "A",
+            "alter": -2
+          },
+          "mode": "mixolydian"
+        },
+        "label": "Authored change 6"
+      },
+      {
+        "id": "key-6",
+        "at": 6720,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "B",
+            "alter": -1
+          },
+          "mode": "locrian"
+        },
+        "label": "Authored change 7"
+      },
+      {
+        "id": "key-7",
+        "at": 7680,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "C",
+            "alter": 0
+          },
+          "mode": "blues"
+        },
+        "label": "Authored change 8"
+      },
+      {
+        "id": "key-8",
+        "at": 8640,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "D",
+            "alter": 1
+          },
+          "mode": "作者の独自モード"
+        },
+        "label": "Authored change 9"
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

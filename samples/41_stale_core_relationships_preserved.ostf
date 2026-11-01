@@ -1,0 +1,902 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Stale relationships remain stored",
+    "subtitle": "Illustrative fields, not extra authority",
+    "description": "A synthetic metadata example.\nNo external asset is required.",
+    "primaryMelodyTrackId": "lead",
+    "primaryLyricDocumentId": "words",
+    "alternateTitles": [
+      {
+        "id": "alternate",
+        "title": "Alternative title"
+      }
+    ],
+    "genres": [
+      {
+        "id": "genre",
+        "name": "Original / ジャンル",
+        "externalUri": "urn:example:genre:open"
+      }
+    ],
+    "moods": [
+      {
+        "id": "mood",
+        "name": "Unclassified mood",
+        "externalUri": "urn:example:mood:open"
+      }
+    ],
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "E",
+        "alter": 0
+      },
+      "mode": "minor",
+      "label": "Initial E minor"
+    },
+    "scale": {
+      "id": "global-scale",
+      "tonic": {
+        "step": "E",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "label": "Authored natural minor collection"
+    },
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "rights": {
+      "notice": "Synthetic example only; not a rights claim for external music.",
+      "licenseUri": "urn:example:license:demonstration",
+      "rightsHolderIds": [
+        "person"
+      ]
+    },
+    "credits": [
+      {
+        "id": "credit",
+        "contributorId": "person",
+        "role": "data-editor",
+        "label": "Data editor"
+      }
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse",
+        "localizedNames": {
+          "ja": "ヴァース"
+        }
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840,
+    "barOrigin": 0,
+    "keyChanges": [
+      {
+        "id": "change",
+        "at": 1920,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "G",
+            "alter": 0
+          },
+          "mode": "major",
+          "label": "G major key"
+        },
+        "label": "Second key"
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "harmony",
+        "start": 0,
+        "duration": 3840,
+        "label": "Em/B",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "bass": {
+          "step": "B",
+          "alter": 0
+        },
+        "voicing": {
+          "pitches": [
+            59,
+            64,
+            67
+          ],
+          "velocities": [
+            80,
+            90,
+            null
+          ]
+        }
+      }
+    ],
+    "scales": [
+      {
+        "id": "local-scale",
+        "start": 0,
+        "duration": 3840,
+        "tonic": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10
+        ],
+        "label": "Local E collection"
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "lead",
+      "clips": [
+        {
+          "id": "phrase",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 480,
+              "pitch": 65,
+              "velocity": 90
+            }
+          ],
+          "name": "Melody phrase",
+          "localizedNames": {
+            "ja": "旋律フレーズ"
+          },
+          "enabled": false
+        }
+      ],
+      "role": "melody",
+      "trackType": "melodic",
+      "preferredView": "pianoRoll",
+      "enabled": true,
+      "localizedNames": {
+        "ja": "主旋律"
+      },
+      "instrument": {
+        "name": "Piano",
+        "family": "keys",
+        "localizedNames": {
+          "ja": "ピアノ"
+        }
+      },
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:example:plugin:preview"
+      }
+    },
+    {
+      "id": "drums",
+      "name": "drums",
+      "clips": [],
+      "trackType": "drum",
+      "preferredView": "drumGrid",
+      "drumKitId": "kit",
+      "localizedNames": {
+        "ja": "ドラム"
+      }
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "kick",
+      "name": "Kick",
+      "role": "kick",
+      "midiNote": 36,
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      },
+      "localizedNames": {
+        "ja": "キック"
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "words",
+        "title": "Words",
+        "language": "en"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "lyric-phrase",
+        "documentId": "words",
+        "text": "Hello",
+        "pronunciation": "hello",
+        "start": 0,
+        "duration": 480
+      }
+    ],
+    "units": [
+      {
+        "id": "unit",
+        "phraseId": "lyric-phrase",
+        "text": "Hello",
+        "pronunciation": "hello",
+        "start": 0,
+        "duration": 480
+      }
+    ],
+    "alignments": [
+      {
+        "id": "alignment",
+        "unitIds": [
+          "unit"
+        ],
+        "noteIds": [
+          "n1"
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "source",
+      "kind": "text",
+      "uri": "urn:example:unavailable:source",
+      "name": "Illustrative source"
+    }
+  ],
+  "contributors": [
+    {
+      "id": "person",
+      "name": "Example Person",
+      "kind": "person",
+      "localizedNames": {
+        "ja": "例示の人物"
+      }
+    },
+    {
+      "id": "organization",
+      "name": "Example Organization",
+      "kind": "organization"
+    },
+    {
+      "id": "other-contributor",
+      "name": "Example Collective",
+      "kind": "other"
+    }
+  ],
+  "drumKits": [
+    {
+      "id": "kit",
+      "name": "Kit",
+      "soundSlotIds": [
+        "kick"
+      ],
+      "localizedNames": {
+        "ja": "キット"
+      }
+    }
+  ],
+  "localization": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "document"
+    },
+    "entries": [
+      {
+        "target": {
+          "kind": "track",
+          "id": "removed-track"
+        },
+        "field": "name",
+        "values": {
+          "ja": "全参照対象"
+        }
+      },
+      {
+        "target": {
+          "kind": "song"
+        },
+        "field": "subtitle",
+        "values": {
+          "ja": "訳: song.subtitle"
+        }
+      },
+      {
+        "target": {
+          "kind": "song"
+        },
+        "field": "description",
+        "values": {
+          "ja": "訳: song.description"
+        }
+      },
+      {
+        "target": {
+          "kind": "song"
+        },
+        "field": "key.label",
+        "values": {
+          "ja": "訳: song.key.label"
+        }
+      },
+      {
+        "target": {
+          "kind": "song"
+        },
+        "field": "rights.notice",
+        "values": {
+          "ja": "訳: song.rights.notice"
+        }
+      },
+      {
+        "target": {
+          "kind": "alternateTitle",
+          "id": "alternate"
+        },
+        "field": "title",
+        "values": {
+          "ja": "訳: alternateTitle.title"
+        }
+      },
+      {
+        "target": {
+          "kind": "contributor",
+          "id": "person"
+        },
+        "field": "name",
+        "values": {
+          "ja": "例示の人物"
+        }
+      },
+      {
+        "target": {
+          "kind": "section",
+          "id": "verse"
+        },
+        "field": "name",
+        "values": {
+          "ja": "ヴァース"
+        }
+      },
+      {
+        "target": {
+          "kind": "track",
+          "id": "lead"
+        },
+        "field": "name",
+        "values": {
+          "ja": "主旋律"
+        }
+      },
+      {
+        "target": {
+          "kind": "track",
+          "id": "lead"
+        },
+        "field": "instrument.name",
+        "values": {
+          "ja": "ピアノ"
+        }
+      },
+      {
+        "target": {
+          "kind": "clip",
+          "id": "phrase"
+        },
+        "field": "name",
+        "values": {
+          "ja": "旋律フレーズ"
+        }
+      },
+      {
+        "target": {
+          "kind": "soundSlot",
+          "id": "kick"
+        },
+        "field": "name",
+        "values": {
+          "ja": "キック"
+        }
+      },
+      {
+        "target": {
+          "kind": "drumKit",
+          "id": "kit"
+        },
+        "field": "name",
+        "values": {
+          "ja": "キット"
+        }
+      },
+      {
+        "target": {
+          "kind": "resource",
+          "id": "source"
+        },
+        "field": "name",
+        "values": {
+          "ja": "訳: resource.name"
+        }
+      },
+      {
+        "target": {
+          "kind": "phraseTemplate",
+          "id": "template"
+        },
+        "field": "name",
+        "values": {
+          "ja": "訳: phraseTemplate.name"
+        }
+      },
+      {
+        "target": {
+          "kind": "clipCandidate",
+          "id": "candidate"
+        },
+        "field": "name",
+        "values": {
+          "ja": "訳: clipCandidate.name"
+        }
+      },
+      {
+        "target": {
+          "kind": "clipChoiceGroup",
+          "id": "group"
+        },
+        "field": "name",
+        "values": {
+          "ja": "訳: clipChoiceGroup.name"
+        }
+      },
+      {
+        "target": {
+          "kind": "roleDefinition",
+          "id": "role"
+        },
+        "field": "name",
+        "values": {
+          "ja": "訳: roleDefinition.name"
+        }
+      },
+      {
+        "target": {
+          "kind": "genre",
+          "id": "genre"
+        },
+        "field": "name",
+        "values": {
+          "ja": "訳: genre.name"
+        }
+      },
+      {
+        "target": {
+          "kind": "mood",
+          "id": "mood"
+        },
+        "field": "name",
+        "values": {
+          "ja": "訳: mood.name"
+        }
+      },
+      {
+        "target": {
+          "kind": "credit",
+          "id": "credit"
+        },
+        "field": "label",
+        "values": {
+          "ja": "訳: credit.label"
+        }
+      },
+      {
+        "target": {
+          "kind": "lyricDocument",
+          "id": "words"
+        },
+        "field": "title",
+        "values": {
+          "ja": "訳: lyricDocument.title"
+        }
+      },
+      {
+        "target": {
+          "kind": "keyChange",
+          "id": "change"
+        },
+        "field": "label",
+        "values": {
+          "ja": "訳: keyChange.label"
+        }
+      },
+      {
+        "target": {
+          "kind": "keyChange",
+          "id": "change"
+        },
+        "field": "key.label",
+        "values": {
+          "ja": "訳: keyChange.key.label"
+        }
+      },
+      {
+        "target": {
+          "kind": "scale",
+          "id": "global-scale"
+        },
+        "field": "label",
+        "values": {
+          "ja": "訳: scale.label"
+        }
+      }
+    ]
+  },
+  "presentation": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "document"
+    },
+    "roleDefinitions": [
+      {
+        "id": "role",
+        "name": "Opening role",
+        "baseRole": "intro"
+      }
+    ],
+    "sectionRoleAssignments": {
+      "verse": "role"
+    },
+    "appearance": {
+      "roleColors": {
+        "intro": "#123456"
+      },
+      "customRoleColors": {
+        "role": "#234567"
+      },
+      "objectColors": [
+        {
+          "target": {
+            "type": "section",
+            "id": "verse"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "track",
+            "id": "lead"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "clip",
+            "id": "phrase"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "note",
+            "id": "n1"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "harmony"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "scale",
+            "id": "global-scale"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "soundSlot",
+            "id": "kick"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "drumKit",
+            "id": "kit"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "lyricDocument",
+            "id": "words"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "lyricPhrase",
+            "id": "lyric-phrase"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "lyricUnit",
+            "id": "unit"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "lyricAlignment",
+            "id": "alignment"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "resource",
+            "id": "source"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "genre",
+            "id": "genre"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "contributor",
+            "id": "person"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "credit",
+            "id": "credit"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "alternateTitle",
+            "id": "alternate"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "mood",
+            "id": "mood"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "keyChange",
+            "id": "change"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "phraseTemplate",
+            "id": "template"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "phraseInstance",
+            "id": "instance"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "clipChoiceGroup",
+            "id": "group"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "clipCandidate",
+            "id": "candidate"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "roleDefinition",
+            "id": "role"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "generationProcess",
+            "id": "process"
+          },
+          "color": "#345678"
+        },
+        {
+          "target": {
+            "type": "provenanceRecord",
+            "id": "record"
+          },
+          "color": "#345678"
+        }
+      ]
+    }
+  },
+  "phraseLibrary": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "document"
+    },
+    "templates": [
+      {
+        "id": "template",
+        "name": "Reusable phrase",
+        "duration": 3840,
+        "notes": [
+          {
+            "id": "local-note",
+            "start": 0,
+            "duration": 480,
+            "pitch": 64,
+            "velocity": 90
+          }
+        ]
+      }
+    ],
+    "instances": [
+      {
+        "id": "instance",
+        "templateId": "template",
+        "clipId": "phrase",
+        "repeatCount": 1,
+        "transpose": 0,
+        "noteMap": [
+          {
+            "templateNoteId": "local-note",
+            "repeatIndex": 0,
+            "noteId": "n1"
+          }
+        ],
+        "velocityMode": "linked"
+      }
+    ]
+  },
+  "clipChoices": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "document"
+    },
+    "groups": [
+      {
+        "id": "group",
+        "name": "One choice",
+        "candidates": [
+          {
+            "id": "candidate",
+            "name": "Existing phrase",
+            "clipIds": [
+              "phrase"
+            ]
+          }
+        ],
+        "selectedCandidateId": "candidate"
+      }
+    ]
+  },
+  "relativePhrases": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "document"
+    },
+    "assignments": [
+      {
+        "noteId": "n1",
+        "basis": "scaleDegree",
+        "contextId": "global-scale",
+        "anchorPitch": 64,
+        "index": 1,
+        "chromaticOffset": 0
+      }
+    ]
+  },
+  "provenance": {
+    "records": [
+      {
+        "id": "record",
+        "action": "create",
+        "description": "Synthetic documentation example."
+      }
+    ]
+  },
+  "generation": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "document"
+    },
+    "processes": [
+      {
+        "id": "process",
+        "generator": {
+          "id": "example.documentation",
+          "version": "1"
+        },
+        "inputs": [],
+        "outputs": [
+          {
+            "type": "note",
+            "id": "n1"
+          }
+        ],
+        "protectedNoteIds": [
+          "n1"
+        ]
+      }
+    ]
+  }
+}

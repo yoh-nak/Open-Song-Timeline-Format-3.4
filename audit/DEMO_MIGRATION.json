@@ -1,0 +1,634 @@
+{
+  "method": "Static parsing, explicit known-field migration and equality comparisons. No device/audio/DAW execution.",
+  "sources": [
+    {
+      "source": "OSTF3.3_Demo_01_Pop_City_Lights_Again.ostf",
+      "sha256": "01220a2933d60fa1a1d619b51050d30850d457e42f165a2c4768aab620924b10",
+      "output": "OSTF3.4_Demo_01_Pop_City_Lights_Again.ostf",
+      "original_key": "C major",
+      "genre_names": [
+        "Pop"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 124,
+      "notes": 4091,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_02_Rock_Against_the_Current.ostf",
+      "sha256": "a14863b56d174ff5cd54eef79c912da048eb1e347e7f6762c1561b23520ae79b",
+      "output": "OSTF3.4_Demo_02_Rock_Against_the_Current.ostf",
+      "original_key": "E minor",
+      "genre_names": [
+        "Rock"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 126,
+      "notes": 4179,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_03_Ballad_The_Last_Train_Home.ostf",
+      "sha256": "cc40ea88169d4874caea3480518d93b1ace0e365cab9679fe4910dcf4d3b2d58",
+      "output": "OSTF3.4_Demo_03_Ballad_The_Last_Train_Home.ostf",
+      "original_key": "G major",
+      "genre_names": [
+        "Ballad"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 88,
+      "notes": 2194,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_04_Jazz_Swing_After_Midnight.ostf",
+      "sha256": "7aaf85dcb319fa4c6250c374c0dfaf17fe41f50c01eb933c6c588d014f05ef36",
+      "output": "OSTF3.4_Demo_04_Jazz_Swing_After_Midnight.ostf",
+      "original_key": "Bb major",
+      "genre_names": [
+        "Jazz Swing"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 132,
+      "notes": 3733,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+      "sha256": "1585c4599736563bd68d69a5ce6990be83c74351755418d7186a530749d7d135",
+      "output": "OSTF3.4_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+      "original_key": "F major",
+      "genre_names": [
+        "Jazz Bebop"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 152,
+      "notes": 3983,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+      "sha256": "8ed8c1d83ac9894509e7f5bc2ca270853f5419fb727da2e83dfdcea6d2d47e01",
+      "output": "OSTF3.4_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+      "original_key": "A blues",
+      "genre_names": [
+        "Blues"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 102,
+      "notes": 2832,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+      "sha256": "4e9d4059ce67d5be1a7a8b78541f5a3954420d152a0a3e487ec012d71c6dcc9b",
+      "output": "OSTF3.4_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+      "original_key": "C major",
+      "genre_names": [
+        "Latin Bossa"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 120,
+      "notes": 3543,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_08_House_Open_Till_Sunrise.ostf",
+      "sha256": "d92152ce33c9d396c1c58a36bdf8e7ec947c89c1743ed38b5ab198c872e5d03b",
+      "output": "OSTF3.4_Demo_08_House_Open_Till_Sunrise.ostf",
+      "original_key": "A minor",
+      "genre_names": [
+        "House"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 138,
+      "notes": 6182,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_09_Techno_Circuit_After_Dark.ostf",
+      "sha256": "59280dafb4ebaa0cf2e0a234c0c4332f8e8d9161602502c0098a3519c8cf5a2f",
+      "output": "OSTF3.4_Demo_09_Techno_Circuit_After_Dark.ostf",
+      "original_key": "C minor",
+      "genre_names": [
+        "Techno"
+      ],
+      "native_key_changes": 0,
+      "voicing_snapshots_migrated": 170,
+      "notes": 5607,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_10_Trance_Above_the_Horizon(1).ostf",
+      "sha256": "e804b91011d11e667df125382f399f78a41f5af19e174c0473c5220efda2737c",
+      "output": "OSTF3.4_Demo_10_Trance_Above_the_Horizon.ostf",
+      "original_key": "E minor",
+      "genre_names": [
+        "Trance"
+      ],
+      "native_key_changes": 1,
+      "voicing_snapshots_migrated": 176,
+      "notes": 7439,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "keyChanges",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    },
+    {
+      "source": "OSTF3.3_Demo_11_Feature_Shifting_Ground.ostf",
+      "sha256": "be90c1a82fce2c9cbf08b93ce0c5ef0afcd0ae6f1caa677cf8aa36598c12c38a",
+      "output": "OSTF3.4_Demo_11_Feature_Shifting_Ground.ostf",
+      "original_key": "C major",
+      "genre_names": [
+        "Progressive Pop / Fusion"
+      ],
+      "native_key_changes": 1,
+      "voicing_snapshots_migrated": 0,
+      "notes": 192,
+      "unchanged_payloads": [
+        "tracks",
+        "soundSlots",
+        "lyrics",
+        "resources",
+        "ppq",
+        "timeline.sections",
+        "timeline.tempoChanges",
+        "timeline.meterChanges",
+        "harmony.scales",
+        "harmony.chords except new voicing"
+      ],
+      "remaining_extensions": false,
+      "primary_lyric_inferred": false,
+      "default_scale_inferred": false,
+      "source_metadata_fields_accounted_for": [
+        "credits",
+        "featureSummary",
+        "genre",
+        "keyChanges",
+        "language",
+        "originalKey",
+        "provenance",
+        "voicings"
+      ]
+    }
+  ],
+  "limitations": [
+    "Authored musical choices and the accuracy of the original demo annotations are not re-composed or acoustically verified.",
+    "No composer is inferred from the data-editor credit.",
+    "No unknown mode is mapped to major/minor."
+  ],
+  "publication_edition": {
+    "date": "2026-11-01",
+    "note": "Prior migration record retained. This edition rechecked original 3.3 JSON payload equality and byte identity to supplied 3.4 demo outputs; no audio/device execution. Original archives are outside this distribution.",
+    "verifications": [
+      {
+        "file": "demos/OSTF3.4_Demo_01_Pop_City_Lights_Again.ostf",
+        "sha256": "765ae3bd5227b88a0d34fa2790d549def49414b464ae2bf5202e9a7858ab7ed1",
+        "bytes": 979921,
+        "original_sha256": "01220a2933d60fa1a1d619b51050d30850d457e42f165a2c4768aab620924b10",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_02_Rock_Against_the_Current.ostf",
+        "sha256": "918f5a74c2f544bc00095b5af20f8d6bf65cda1e83634210fff48501f759230a",
+        "bytes": 983541,
+        "original_sha256": "a14863b56d174ff5cd54eef79c912da048eb1e347e7f6762c1561b23520ae79b",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_03_Ballad_The_Last_Train_Home.ostf",
+        "sha256": "864bc7f82f19b7c67232bcf370392196a680102de07cbce8c8132d58cf52e04a",
+        "bytes": 558929,
+        "original_sha256": "cc40ea88169d4874caea3480518d93b1ace0e365cab9679fe4910dcf4d3b2d58",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_04_Jazz_Swing_After_Midnight.ostf",
+        "sha256": "c13dda0758a9586a5b14bbdd36ec3374b618e65f61bd470c66cae876b72a3678",
+        "bytes": 859330,
+        "original_sha256": "7aaf85dcb319fa4c6250c374c0dfaf17fe41f50c01eb933c6c588d014f05ef36",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+        "sha256": "86512bab96942943af37a30ff063689469b7ae71bd042defc8ef2471b5949811",
+        "bytes": 925855,
+        "original_sha256": "1585c4599736563bd68d69a5ce6990be83c74351755418d7186a530749d7d135",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+        "sha256": "1560a65a44675c8fee5aec7e8aa1227754d86c5d3973a76638af816c9bcf74b6",
+        "bytes": 661962,
+        "original_sha256": "8ed8c1d83ac9894509e7f5bc2ca270853f5419fb727da2e83dfdcea6d2d47e01",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+        "sha256": "78b000b3c4c0ef2dc06145fdfd4987aede7f351c940782ba44300e187b1cfb36",
+        "bytes": 821124,
+        "original_sha256": "4e9d4059ce67d5be1a7a8b78541f5a3954420d152a0a3e487ec012d71c6dcc9b",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_08_House_Open_Till_Sunrise.ostf",
+        "sha256": "37cd7db6663111716be7b0ff56de4e5a9f1122be58715d0f433a52cef9bbf0d5",
+        "bytes": 1332456,
+        "original_sha256": "d92152ce33c9d396c1c58a36bdf8e7ec947c89c1743ed38b5ab198c872e5d03b",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_09_Techno_Circuit_After_Dark.ostf",
+        "sha256": "fc43cf7ff6d4c140264d866bfcb31d735c73a2ef4b81c288fbaaade88ed593e4",
+        "bytes": 1221158,
+        "original_sha256": "59280dafb4ebaa0cf2e0a234c0c4332f8e8d9161602502c0098a3519c8cf5a2f",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_10_Trance_Above_the_Horizon.ostf",
+        "sha256": "354fc9a93a77220805b94b6ad01cac328cbfec7266b3e3158e7449389b56c263",
+        "bytes": 1620402,
+        "original_sha256": "e804b91011d11e667df125382f399f78a41f5af19e174c0473c5220efda2737c",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_11_Feature_Shifting_Ground.ostf",
+        "sha256": "365373e82a35f5e525e2bceb9d5a06db47ac26cff1064bcb64ff1993ce4e41eb",
+        "bytes": 62008,
+        "original_sha256": "be90c1a82fce2c9cbf08b93ce0c5ef0afcd0ae6f1caa677cf8aa36598c12c38a",
+        "checks": {
+          "tracks": true,
+          "soundSlots": true,
+          "lyrics": true,
+          "resources": true,
+          "ppq": true,
+          "timeline.sections": true,
+          "timeline.tempoChanges": true,
+          "timeline.meterChanges": true,
+          "harmony.scales": true,
+          "harmony.chords_except_voicing": true,
+          "previous_3_4_demo_byte_identity": true
+        },
+        "pass": true
+      }
+    ]
+  }
+}

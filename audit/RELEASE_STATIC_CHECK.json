@@ -1,0 +1,991 @@
+{
+  "format_version": "3.4.0",
+  "scope": "Static package/data/documentation checks only. No DAW/device/UI/audio/hardware/generator execution. Selected semantic checks, not complete validator certification.",
+  "python": "3.13.5",
+  "jsonschema": "4.26.0",
+  "pass": true,
+  "conditions": {
+    "exactly_100_files": true,
+    "no_nested_archives": true,
+    "all_65_ostf_documents_current": true,
+    "five_valid_self_contained_schemas": true,
+    "data_checks_pass": true,
+    "all_current_properties_witnessed": true,
+    "all_enum_values_witnessed": true,
+    "all_constants_witnessed": true,
+    "stored_coverage_matches_recomputation": true,
+    "baseline_bytes_preserved": true,
+    "frozen_legacy_definitions_preserved": true,
+    "demo_outputs_match_comparison_records": true,
+    "all_token_cases_match": true,
+    "local_markdown_links_resolve": true,
+    "three_python_sources_parse": true
+  },
+  "file_count": 100,
+  "category_counts": {
+    "root": 8,
+    "audit": 5,
+    "demos": 12,
+    "docs": 12,
+    "samples": 55,
+    "schema": 5,
+    "tools": 3
+  },
+  "nested_archives": [],
+  "schemas": [
+    {
+      "file": "schema/ostf-3.0.0.schema.json",
+      "meta_schema_valid": true,
+      "unresolved_refs": []
+    },
+    {
+      "file": "schema/ostf-3.1.0.schema.json",
+      "meta_schema_valid": true,
+      "unresolved_refs": []
+    },
+    {
+      "file": "schema/ostf-3.2.0.schema.json",
+      "meta_schema_valid": true,
+      "unresolved_refs": []
+    },
+    {
+      "file": "schema/ostf-3.3.0.schema.json",
+      "meta_schema_valid": true,
+      "unresolved_refs": []
+    },
+    {
+      "file": "schema/ostf-3.4.0.schema.json",
+      "meta_schema_valid": true,
+      "unresolved_refs": []
+    }
+  ],
+  "standalone_ostf": 65,
+  "versions": [
+    "3.4.0"
+  ],
+  "samples_with_extensions": [
+    "samples/17_legacy_conflict_core_wins.ostf",
+    "samples/49_frozen_legacy_profiles_compatibility_only.ostf",
+    "samples/50_opaque_future_payload_numeric_precision.ostf"
+  ],
+  "coverage_summary": {
+    "definition_counts": {
+      "current": 77,
+      "frozen_legacy": 65
+    },
+    "property_declarations": 296,
+    "property_declarations_with_witness": 296,
+    "enum_values": 119,
+    "enum_values_with_witness": 119,
+    "constant_declarations": 3,
+    "constant_declarations_with_witness": 3
+  },
+  "data_checks": {
+    "scope": "Static JSON and selected specification-invariant checks only. No device, renderer, generator or DAW execution. Not a full general-purpose OSTF validator.",
+    "schema_meta_valid": true,
+    "positive_documents": [
+      {
+        "file": "samples/01_empty_without_extensions.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/02_trance_metadata_core_only.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/03_modulation_atonal_and_unspecified.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/04_scale_without_key.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/05_custom_mode_and_scale.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/06_overlapping_scale_contexts.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/07_pickup_additive_midbar_meter.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/08_note_pickup_and_long_tail.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/09_languages_genres_moods_credits.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/10_primary_lyrics_and_alignment.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/11_presentation_no_extension.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/12_phrase_velocity_linked.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/13_phrase_velocity_independent.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/14_clip_choices_no_selection.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/15_relative_and_generation_intent.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/16_identity_provenance_and_transpose.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/17_legacy_conflict_core_wins.ostf",
+        "errors": [],
+        "warnings": [
+          "LEGACY_NOT_AUTHORITY: legacy Player metadata is retained; Core is the only 3.4 authority."
+        ]
+      },
+      {
+        "file": "samples/18_stale_missing_relation.ostf",
+        "errors": [],
+        "warnings": [
+          "UNRESOLVED_REFERENCE: removed-note: note/removed-note",
+          "UNRESOLVED_REFERENCE: removed-note: scale/removed-scale"
+        ]
+      },
+      {
+        "file": "samples/19_mixed_identity_no_drum_transpose.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/20_voicing_snapshot_not_double_playback.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/21_native_drum_template_velocity.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/22_explicit_dependency_scopes.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/23_complete_core_metadata_and_localization.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/24_all_key_modes_and_enharmonic_spellings.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/25_all_meter_denominators_and_tempo_changes.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/26_ppq_minimum_integer_ticks.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/27_ppq_maximum_integer_ticks.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/28_maximum_integer_pitch_velocity_boundaries.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/29_local_pickups_and_same_pitch_overlaps.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/30_muted_and_empty_track_types.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/31_all_sound_source_kinds.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/32_all_gm1_slots_and_shared_kits.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/33_custom_unmapped_and_same_midi_slot_identity.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/34_chord_intervals_and_voicing_multiset.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/35_lyrics_only_timed_units.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/36_multilingual_many_to_many_alignment.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/37_resource_kinds_and_provenance_actions.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/38_all_reference_and_localization_targets.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/39_all_scale_target_types_and_overlap.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/40_empty_unverified_core_objects.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/41_stale_core_relationships_preserved.ostf",
+        "errors": [],
+        "warnings": [
+          "RELATION_MISMATCH: n1",
+          "RELATION_MISMATCH: instance/n1",
+          "RELATION_MISMATCH: group/phrase",
+          "UNRESOLVED_REFERENCE: localization: track/removed-track",
+          "RELATION_MISMATCH: track/removed-track/name"
+        ]
+      },
+      {
+        "file": "samples/42_linked_phrase_before_replacement.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/43_linked_phrase_after_replacement.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/44_detached_phrase_keeps_notes_and_template.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/45_choices_shared_clips_and_silent_candidate.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/46_generation_protection_and_swing_intent.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/47_document_branch_and_merge_identity.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/48_presentation_color_inheritance.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/49_frozen_legacy_profiles_compatibility_only.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/50_opaque_future_payload_numeric_precision.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/51_explicit_empty_and_absent_metadata.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/52_harmony_only_no_automatic_performance.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/53_relative_interval_and_offset_boundaries.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "samples/54_empty_template_and_independent_velocity.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_01_Pop_City_Lights_Again.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_02_Rock_Against_the_Current.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_03_Ballad_The_Last_Train_Home.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_04_Jazz_Swing_After_Midnight.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_08_House_Open_Till_Sunrise.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_09_Techno_Circuit_After_Dark.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_10_Trance_Above_the_Horizon.ostf",
+        "errors": [],
+        "warnings": []
+      },
+      {
+        "file": "demos/OSTF3.4_Demo_11_Feature_Shifting_Ground.ostf",
+        "errors": [],
+        "warnings": []
+      }
+    ],
+    "negative_cases": [
+      {
+        "name": "atonal_with_tonic",
+        "expected": "schema",
+        "actual": "schema",
+        "matches": true,
+        "diagnostics": [
+          "SCHEMA /song/key: {'state': 'atonal', 'tonic': {'step': 'C', 'alter': 0}} should not be valid under {'anyOf': [{'required': ['tonic']}, {'required': ['mode']}]}"
+        ]
+      },
+      {
+        "name": "duplicate_initial_key_location",
+        "expected": "schema",
+        "actual": "schema",
+        "matches": true,
+        "diagnostics": [
+          "SCHEMA /timeline/keyChanges/0/at: 0 is less than the minimum of 1"
+        ]
+      },
+      {
+        "name": "duplicate_key_change_time",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "TIME_ORDER: keyChanges"
+        ]
+      },
+      {
+        "name": "tonal_missing_mode",
+        "expected": "schema",
+        "actual": "schema",
+        "matches": true,
+        "diagnostics": [
+          "SCHEMA /song/key: 'mode' is a required property"
+        ]
+      },
+      {
+        "name": "nonstandard_duplicate_tempo",
+        "expected": "schema",
+        "actual": "schema",
+        "matches": true,
+        "diagnostics": [
+          "SCHEMA /song: Additional properties are not allowed ('bpm' was unexpected)"
+        ]
+      },
+      {
+        "name": "empty_genre_name",
+        "expected": "schema",
+        "actual": "schema",
+        "matches": true,
+        "diagnostics": [
+          "SCHEMA /song/genres/0/name: '' should be non-empty"
+        ]
+      },
+      {
+        "name": "unsorted_scale",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "INTERVALS_ORDER: scale-default"
+        ]
+      },
+      {
+        "name": "missing_primary_melody",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "UNRESOLVED_REFERENCE: song.primaryMelodyTrackId: track/missing"
+        ]
+      },
+      {
+        "name": "missing_primary_lyrics",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "UNRESOLVED_REFERENCE: song.primaryLyricDocumentId: lyricDocument/missing"
+        ]
+      },
+      {
+        "name": "incorrect_beat_group_sum",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "BEAT_GROUP_SUM: {'at': 0, 'numerator': 4, 'denominator': 4, 'beatGroups': [2, 3]}"
+        ]
+      },
+      {
+        "name": "pickup_not_shorter_than_bar",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "BAR_ORIGIN: 3840"
+        ]
+      },
+      {
+        "name": "negative_absolute_onset",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "NOTE_ABSOLUTE_TIME: note-a"
+        ]
+      },
+      {
+        "name": "voicing_velocity_length_mismatch",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "VOICING_LENGTH: chord-e"
+        ]
+      },
+      {
+        "name": "linked_velocity_mismatch",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "RELATION_MISMATCH: instance-a/n-second"
+        ]
+      },
+      {
+        "name": "selection_enabled_mismatch",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "RELATION_MISMATCH: group-a/lead-clip"
+        ]
+      },
+      {
+        "name": "incomplete_groove_ratio",
+        "expected": "schema",
+        "actual": "schema",
+        "matches": true,
+        "diagnostics": [
+          "SCHEMA /generation/processes/0/intent/groove: 'unitTicks' is a dependency of 'longWeight'",
+          "SCHEMA /generation/processes/0/intent/groove: 'unitTicks' is a dependency of 'shortWeight'"
+        ]
+      },
+      {
+        "name": "relative_pitch_mismatch",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "RELATION_MISMATCH: note-a"
+        ]
+      },
+      {
+        "name": "cross_kind_duplicate_id",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "DUPLICATE_ID: same"
+        ]
+      },
+      {
+        "name": "case_duplicate_language",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "LANGUAGE_DUPLICATE: song.languages"
+        ]
+      },
+      {
+        "name": "missing_rights_holder",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "UNRESOLVED_REFERENCE: song.rights: contributor/missing"
+        ]
+      },
+      {
+        "name": "revision_is_own_parent",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "REVISION_SELF_PARENT: ('urn:example:document:one', 'urn:example:revision:two')"
+        ]
+      },
+      {
+        "name": "translation_of_musical_semantics",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "LOCALIZATION_FIELD: song.key.mode"
+        ]
+      },
+      {
+        "name": "dependency_scope_none_with_refs",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "RELATION_MISMATCH: generation dependency scope=none"
+        ]
+      },
+      {
+        "name": "missing_scale_target",
+        "expected": "semantic",
+        "actual": "semantic",
+        "matches": true,
+        "diagnostics": [
+          "UNRESOLVED_REFERENCE: scale-a: track/missing"
+        ]
+      }
+    ],
+    "pass": true
+  },
+  "numeric_token_checks": [
+    {
+      "name": "utf8_bom",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "UTF-8 BOM is not allowed"
+      ]
+    },
+    {
+      "name": "duplicate_member",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "Duplicate JSON member: format"
+      ]
+    },
+    {
+      "name": "invalid_utf8",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "'utf-8' codec can't decode byte 0xff in position 10: invalid start byte"
+      ]
+    },
+    {
+      "name": "lone_surrogate",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "Lone Unicode surrogate is not allowed"
+      ]
+    },
+    {
+      "name": "nan",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "NaN"
+      ]
+    },
+    {
+      "name": "infinity",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "Infinity"
+      ]
+    },
+    {
+      "name": "trailing_json",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "Extra data: line 38 column 1 (char 531)"
+      ]
+    },
+    {
+      "name": "integer_as_real_token",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "SCHEMA /ppq: Decimal('1.0') is not of type 'integer'"
+      ]
+    },
+    {
+      "name": "integer_as_exponent_token",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "SCHEMA /ppq: Decimal('1') is not of type 'integer'"
+      ]
+    },
+    {
+      "name": "integer_as_boolean",
+      "expected_accepted": false,
+      "accepted": false,
+      "pass": true,
+      "diagnostic": [
+        "SCHEMA /ppq: True is not of type 'integer'"
+      ]
+    },
+    {
+      "name": "opaque_extreme_numeric_tokens",
+      "expected_accepted": true,
+      "accepted": true,
+      "pass": true,
+      "diagnostic": []
+    }
+  ],
+  "baseline_preservation": [
+    {
+      "path": "docs/FORMAT_SPECIFICATION.ja.md",
+      "unchanged": true
+    },
+    {
+      "path": "schema/ostf-3.0.0.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "schema/ostf-3.1.0.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "schema/ostf-3.2.0.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "schema/ostf-3.3.0.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "schema/ostf-3.4.0.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "samples/01_empty_without_extensions.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/02_trance_metadata_core_only.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/03_modulation_atonal_and_unspecified.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/04_scale_without_key.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/05_custom_mode_and_scale.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/06_overlapping_scale_contexts.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/07_pickup_additive_midbar_meter.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/08_note_pickup_and_long_tail.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/09_languages_genres_moods_credits.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/10_primary_lyrics_and_alignment.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/11_presentation_no_extension.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/12_phrase_velocity_linked.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/13_phrase_velocity_independent.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/14_clip_choices_no_selection.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/15_relative_and_generation_intent.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/16_identity_provenance_and_transpose.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/17_legacy_conflict_core_wins.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/18_stale_missing_relation.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/19_mixed_identity_no_drum_transpose.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/20_voicing_snapshot_not_double_playback.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/21_native_drum_template_velocity.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "samples/22_explicit_dependency_scopes.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_01_Pop_City_Lights_Again.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_02_Rock_Against_the_Current.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_03_Ballad_The_Last_Train_Home.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_04_Jazz_Swing_After_Midnight.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_08_House_Open_Till_Sunrise.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_09_Techno_Circuit_After_Dark.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_10_Trance_Above_the_Horizon.ostf",
+      "unchanged": true
+    },
+    {
+      "path": "demos/OSTF3.4_Demo_11_Feature_Shifting_Ground.ostf",
+      "unchanged": true
+    }
+  ],
+  "frozen_legacy_definitions_equal": true,
+  "demo_record_checks": [
+    {
+      "file": "demos/OSTF3.4_Demo_01_Pop_City_Lights_Again.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_02_Rock_Against_the_Current.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_03_Ballad_The_Last_Train_Home.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_04_Jazz_Swing_After_Midnight.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_05_Jazz_Bebop_Corner_Changes.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_06_Blues_Crossroads_at_Dawn.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_07_Latin_Bossa_Rua_do_Sol.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_08_House_Open_Till_Sunrise.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_09_Techno_Circuit_After_Dark.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_10_Trance_Above_the_Horizon.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    },
+    {
+      "file": "demos/OSTF3.4_Demo_11_Feature_Shifting_Ground.ostf",
+      "current_bytes_match_checked_output": true,
+      "recorded_original_payload_comparison_pass": true,
+      "original_input_available_in_this_distribution": false
+    }
+  ],
+  "original_demo_comparison_note": "The publisher rechecked originals while preparing this edition. Original inputs are not bundled; standalone checking verifies output hashes against that recorded comparison, not unavailable originals.",
+  "broken_local_links": [],
+  "python_sources_parsed": [
+    "build_catalogue.py",
+    "check_package.py",
+    "check_release.py"
+  ],
+  "manifest": {
+    "status": "Created after this report; verified separately to avoid self-reference."
+  },
+  "not_performed": [
+    "Device or DAW execution",
+    "Audio or MIDI hardware verification",
+    "UI interaction",
+    "Generic migration runtime",
+    "Full legacy-profile semantic validation",
+    "Complete BCP 47 validation",
+    "Every possible semantic combination",
+    "GitHub publication"
+  ]
+}

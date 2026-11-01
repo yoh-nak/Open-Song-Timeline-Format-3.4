@@ -1,0 +1,86 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Key changes, no duplicated tick zero",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "keyChanges": [
+      {
+        "id": "kc-d",
+        "at": 3840,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "D",
+            "alter": 0
+          },
+          "mode": "minor"
+        },
+        "label": "New tonal center"
+      },
+      {
+        "id": "kc-none",
+        "at": 7680,
+        "key": {
+          "state": "atonal"
+        }
+      },
+      {
+        "id": "kc-unspecified",
+        "at": 11520,
+        "key": {
+          "state": "unspecified"
+        }
+      },
+      {
+        "id": "kc-return",
+        "at": 15360,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "C",
+            "alter": 0
+          },
+          "mode": "major"
+        }
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

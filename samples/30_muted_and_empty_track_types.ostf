@@ -1,0 +1,109 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Empty, muted and inferred tracks"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "empty-melodic",
+      "name": "empty-melodic",
+      "clips": [],
+      "trackType": "melodic",
+      "preferredView": "auto",
+      "enabled": false
+    },
+    {
+      "id": "empty-drum",
+      "name": "empty-drum",
+      "clips": [],
+      "trackType": "drum",
+      "preferredView": "pianoRoll",
+      "enabled": false
+    },
+    {
+      "id": "empty-mixed",
+      "name": "empty-mixed",
+      "clips": [],
+      "trackType": "mixed",
+      "preferredView": "drumGrid",
+      "enabled": false
+    },
+    {
+      "id": "untyped-empty",
+      "name": "untyped-empty",
+      "clips": []
+    },
+    {
+      "id": "muted",
+      "name": "muted",
+      "clips": [
+        {
+          "id": "enabled-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "muted-note",
+              "start": 0,
+              "duration": 480,
+              "pitch": 60
+            }
+          ],
+          "enabled": true
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "id": "enabled",
+      "name": "enabled",
+      "clips": [
+        {
+          "id": "disabled-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "disabled-note",
+              "start": 0,
+              "duration": 480,
+              "pitch": 60
+            }
+          ],
+          "enabled": false
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

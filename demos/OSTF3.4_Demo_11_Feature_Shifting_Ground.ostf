@@ -1,0 +1,2808 @@
+{
+  "format": "OSTF",
+  "version": "3.4.0",
+  "ppq": 960,
+  "song": {
+    "title": "Shifting Ground — Feature Demo",
+    "primaryMelodyTrackId": "lead",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major",
+      "label": "C major"
+    },
+    "genres": [
+      {
+        "id": "genre-imported-primary",
+        "name": "Progressive Pop / Fusion"
+      }
+    ],
+    "languages": [
+      "en"
+    ],
+    "credits": [
+      {
+        "id": "credit-data-editor",
+        "contributorId": "contributor-data-editor",
+        "role": "data-editor"
+      }
+    ],
+    "description": "Half-bar harmony, tempo changes, 4/4→3/4→4/4 meter changes, final modulation, scales, three pitched tracks, percussion soundSlots and lyric alignment."
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "feature-a",
+        "name": "A — 4/4",
+        "role": "verse",
+        "start": 0,
+        "duration": 15360
+      },
+      {
+        "id": "feature-b",
+        "name": "B — 3/4",
+        "role": "bridge",
+        "start": 15360,
+        "duration": 11520
+      },
+      {
+        "id": "feature-c",
+        "name": "Final — 4/4 / Modulation",
+        "role": "chorus",
+        "start": 26880,
+        "duration": 3840
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 108
+      },
+      {
+        "at": 15360,
+        "bpm": 114
+      },
+      {
+        "at": 26880,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      },
+      {
+        "at": 15360,
+        "numerator": 3,
+        "denominator": 4
+      },
+      {
+        "at": 26880,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "keyChanges": [
+      {
+        "id": "key-change-import-1",
+        "at": 26880,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "D",
+            "alter": 0
+          },
+          "mode": "major",
+          "label": "D major"
+        },
+        "label": "Final modulation"
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "chord-0",
+        "start": 0,
+        "duration": 1920,
+        "label": "Cmaj7"
+      },
+      {
+        "id": "chord-1",
+        "start": 1920,
+        "duration": 1920,
+        "label": "Am7"
+      },
+      {
+        "id": "chord-2",
+        "start": 3840,
+        "duration": 1920,
+        "label": "Dm7"
+      },
+      {
+        "id": "chord-3",
+        "start": 5760,
+        "duration": 1920,
+        "label": "G7"
+      },
+      {
+        "id": "chord-4",
+        "start": 7680,
+        "duration": 1920,
+        "label": "Cmaj7"
+      },
+      {
+        "id": "chord-5",
+        "start": 9600,
+        "duration": 1920,
+        "label": "Am7"
+      },
+      {
+        "id": "chord-6",
+        "start": 11520,
+        "duration": 1920,
+        "label": "Dm7"
+      },
+      {
+        "id": "chord-7",
+        "start": 13440,
+        "duration": 1920,
+        "label": "G7"
+      },
+      {
+        "id": "chord-8",
+        "start": 15360,
+        "duration": 1920,
+        "label": "Cmaj7"
+      },
+      {
+        "id": "chord-9",
+        "start": 17280,
+        "duration": 1920,
+        "label": "Am7"
+      },
+      {
+        "id": "chord-10",
+        "start": 19200,
+        "duration": 1920,
+        "label": "Dm7"
+      },
+      {
+        "id": "chord-11",
+        "start": 21120,
+        "duration": 1920,
+        "label": "G7"
+      },
+      {
+        "id": "chord-12",
+        "start": 23040,
+        "duration": 1920,
+        "label": "Cmaj7"
+      },
+      {
+        "id": "chord-13",
+        "start": 24960,
+        "duration": 1920,
+        "label": "Am7"
+      },
+      {
+        "id": "chord-14",
+        "start": 26880,
+        "duration": 1920,
+        "label": "Em7"
+      },
+      {
+        "id": "chord-15",
+        "start": 28800,
+        "duration": 1920,
+        "label": "A7"
+      }
+    ],
+    "scales": [
+      {
+        "id": "scale-chord-0",
+        "start": 0,
+        "duration": 1920,
+        "label": "C Ionian",
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "id": "scale-chord-1",
+        "start": 1920,
+        "duration": 1920,
+        "label": "A Dorian",
+        "tonic": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-2",
+        "start": 3840,
+        "duration": 1920,
+        "label": "D Dorian",
+        "tonic": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-3",
+        "start": 5760,
+        "duration": 1920,
+        "label": "G Mixolydian",
+        "tonic": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-4",
+        "start": 7680,
+        "duration": 1920,
+        "label": "C Ionian",
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "id": "scale-chord-5",
+        "start": 9600,
+        "duration": 1920,
+        "label": "A Dorian",
+        "tonic": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-6",
+        "start": 11520,
+        "duration": 1920,
+        "label": "D Dorian",
+        "tonic": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-7",
+        "start": 13440,
+        "duration": 1920,
+        "label": "G Mixolydian",
+        "tonic": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-8",
+        "start": 15360,
+        "duration": 1920,
+        "label": "C Ionian",
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "id": "scale-chord-9",
+        "start": 17280,
+        "duration": 1920,
+        "label": "A Dorian",
+        "tonic": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-10",
+        "start": 19200,
+        "duration": 1920,
+        "label": "D Dorian",
+        "tonic": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-11",
+        "start": 21120,
+        "duration": 1920,
+        "label": "G Mixolydian",
+        "tonic": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-12",
+        "start": 23040,
+        "duration": 1920,
+        "label": "C Ionian",
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "id": "scale-chord-13",
+        "start": 24960,
+        "duration": 1920,
+        "label": "A Dorian",
+        "tonic": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-14",
+        "start": 26880,
+        "duration": 1920,
+        "label": "E Dorian",
+        "tonic": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "id": "scale-chord-15",
+        "start": 28800,
+        "duration": 1920,
+        "label": "A Mixolydian",
+        "tonic": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "keys",
+      "name": "Piano",
+      "role": "accompaniment",
+      "instrument": {
+        "name": "Soft Keys",
+        "family": "keyboard"
+      },
+      "clips": [
+        {
+          "id": "keys-0",
+          "start": 0,
+          "duration": 1920,
+          "name": "Cmaj7",
+          "notes": [
+            {
+              "id": "key-0-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-0-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-0-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 64
+            }
+          ]
+        },
+        {
+          "id": "keys-1",
+          "start": 1920,
+          "duration": 1920,
+          "name": "Am7",
+          "notes": [
+            {
+              "id": "key-1-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 52
+            },
+            {
+              "id": "key-1-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-1-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 60
+            }
+          ]
+        },
+        {
+          "id": "keys-2",
+          "start": 3840,
+          "duration": 1920,
+          "name": "Dm7",
+          "notes": [
+            {
+              "id": "key-2-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 57
+            },
+            {
+              "id": "key-2-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 60
+            },
+            {
+              "id": "key-2-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 65
+            }
+          ]
+        },
+        {
+          "id": "keys-3",
+          "start": 5760,
+          "duration": 1920,
+          "name": "G7",
+          "notes": [
+            {
+              "id": "key-3-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 53
+            },
+            {
+              "id": "key-3-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-3-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 62
+            }
+          ]
+        },
+        {
+          "id": "keys-4",
+          "start": 7680,
+          "duration": 1920,
+          "name": "Cmaj7",
+          "notes": [
+            {
+              "id": "key-4-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-4-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-4-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 64
+            }
+          ]
+        },
+        {
+          "id": "keys-5",
+          "start": 9600,
+          "duration": 1920,
+          "name": "Am7",
+          "notes": [
+            {
+              "id": "key-5-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 52
+            },
+            {
+              "id": "key-5-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-5-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 60
+            }
+          ]
+        },
+        {
+          "id": "keys-6",
+          "start": 11520,
+          "duration": 1920,
+          "name": "Dm7",
+          "notes": [
+            {
+              "id": "key-6-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 57
+            },
+            {
+              "id": "key-6-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 60
+            },
+            {
+              "id": "key-6-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 65
+            }
+          ]
+        },
+        {
+          "id": "keys-7",
+          "start": 13440,
+          "duration": 1920,
+          "name": "G7",
+          "notes": [
+            {
+              "id": "key-7-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 53
+            },
+            {
+              "id": "key-7-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-7-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 62
+            }
+          ]
+        },
+        {
+          "id": "keys-8",
+          "start": 15360,
+          "duration": 1920,
+          "name": "Cmaj7",
+          "notes": [
+            {
+              "id": "key-8-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-8-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-8-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 64
+            }
+          ]
+        },
+        {
+          "id": "keys-9",
+          "start": 17280,
+          "duration": 1920,
+          "name": "Am7",
+          "notes": [
+            {
+              "id": "key-9-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 52
+            },
+            {
+              "id": "key-9-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-9-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 60
+            }
+          ]
+        },
+        {
+          "id": "keys-10",
+          "start": 19200,
+          "duration": 1920,
+          "name": "Dm7",
+          "notes": [
+            {
+              "id": "key-10-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 57
+            },
+            {
+              "id": "key-10-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 60
+            },
+            {
+              "id": "key-10-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 65
+            }
+          ]
+        },
+        {
+          "id": "keys-11",
+          "start": 21120,
+          "duration": 1920,
+          "name": "G7",
+          "notes": [
+            {
+              "id": "key-11-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 53
+            },
+            {
+              "id": "key-11-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-11-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 62
+            }
+          ]
+        },
+        {
+          "id": "keys-12",
+          "start": 23040,
+          "duration": 1920,
+          "name": "Cmaj7",
+          "notes": [
+            {
+              "id": "key-12-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-12-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-12-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 64
+            }
+          ]
+        },
+        {
+          "id": "keys-13",
+          "start": 24960,
+          "duration": 1920,
+          "name": "Am7",
+          "notes": [
+            {
+              "id": "key-13-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 52
+            },
+            {
+              "id": "key-13-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-13-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 60
+            }
+          ]
+        },
+        {
+          "id": "keys-14",
+          "start": 26880,
+          "duration": 1920,
+          "name": "Dm7",
+          "notes": [
+            {
+              "id": "key-14-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 59
+            },
+            {
+              "id": "key-14-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 62
+            },
+            {
+              "id": "key-14-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 67
+            }
+          ]
+        },
+        {
+          "id": "keys-15",
+          "start": 28800,
+          "duration": 1920,
+          "name": "G7",
+          "notes": [
+            {
+              "id": "key-15-0",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 55
+            },
+            {
+              "id": "key-15-1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 61
+            },
+            {
+              "id": "key-15-2",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "role": "bass",
+      "instrument": {
+        "name": "Bass preview",
+        "family": "bass"
+      },
+      "clips": [
+        {
+          "id": "bass-0",
+          "start": 0,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-0",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 36
+            }
+          ]
+        },
+        {
+          "id": "bass-1",
+          "start": 1920,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-1",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 33
+            }
+          ]
+        },
+        {
+          "id": "bass-2",
+          "start": 3840,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-2",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 38
+            }
+          ]
+        },
+        {
+          "id": "bass-3",
+          "start": 5760,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-3",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 31
+            }
+          ]
+        },
+        {
+          "id": "bass-4",
+          "start": 7680,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-4",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 36
+            }
+          ]
+        },
+        {
+          "id": "bass-5",
+          "start": 9600,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-5",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 33
+            }
+          ]
+        },
+        {
+          "id": "bass-6",
+          "start": 11520,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-6",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 38
+            }
+          ]
+        },
+        {
+          "id": "bass-7",
+          "start": 13440,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-7",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 31
+            }
+          ]
+        },
+        {
+          "id": "bass-8",
+          "start": 15360,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-8",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 36
+            }
+          ]
+        },
+        {
+          "id": "bass-9",
+          "start": 17280,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-9",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 33
+            }
+          ]
+        },
+        {
+          "id": "bass-10",
+          "start": 19200,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-10",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 38
+            }
+          ]
+        },
+        {
+          "id": "bass-11",
+          "start": 21120,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-11",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 31
+            }
+          ]
+        },
+        {
+          "id": "bass-12",
+          "start": 23040,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-12",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 36
+            }
+          ]
+        },
+        {
+          "id": "bass-13",
+          "start": 24960,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-13",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 33
+            }
+          ]
+        },
+        {
+          "id": "bass-14",
+          "start": 26880,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-14",
+              "start": 0,
+              "duration": 2040,
+              "pitch": 40
+            }
+          ]
+        },
+        {
+          "id": "bass-15",
+          "start": 28800,
+          "duration": 1920,
+          "notes": [
+            {
+              "id": "bn-15",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead",
+      "name": "Lead",
+      "role": "melody",
+      "instrument": {
+        "name": "Lead preview",
+        "family": "keyboard"
+      },
+      "clips": [
+        {
+          "id": "lead-0",
+          "name": "City lights are waking",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-0-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 64
+            },
+            {
+              "id": "ln-0-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-0-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 72
+            },
+            {
+              "id": "ln-0-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 69
+            }
+          ]
+        },
+        {
+          "id": "lead-1",
+          "name": "Footsteps find a song",
+          "start": 3840,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-1-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 65
+            },
+            {
+              "id": "ln-1-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 69
+            },
+            {
+              "id": "ln-1-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-1-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 71
+            }
+          ]
+        },
+        {
+          "id": "lead-2",
+          "name": "Every turn brings morning",
+          "start": 7680,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-2-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 64
+            },
+            {
+              "id": "ln-2-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-2-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 72
+            },
+            {
+              "id": "ln-2-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 69
+            }
+          ]
+        },
+        {
+          "id": "lead-3",
+          "name": "We carry it along",
+          "start": 11520,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-3-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 65
+            },
+            {
+              "id": "ln-3-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 69
+            },
+            {
+              "id": "ln-3-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-3-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 71
+            }
+          ]
+        },
+        {
+          "id": "lead-4",
+          "name": "City lights are waking",
+          "start": 15360,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-4-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 64
+            },
+            {
+              "id": "ln-4-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-4-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 72
+            },
+            {
+              "id": "ln-4-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 69
+            }
+          ]
+        },
+        {
+          "id": "lead-5",
+          "name": "Footsteps find a song",
+          "start": 19200,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-5-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 65
+            },
+            {
+              "id": "ln-5-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 69
+            },
+            {
+              "id": "ln-5-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-5-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 71
+            }
+          ]
+        },
+        {
+          "id": "lead-6",
+          "name": "Every turn brings morning",
+          "start": 23040,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-6-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 64
+            },
+            {
+              "id": "ln-6-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-6-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 72
+            },
+            {
+              "id": "ln-6-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 69
+            }
+          ]
+        },
+        {
+          "id": "lead-7",
+          "name": "We carry it along",
+          "start": 26880,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "ln-7-0",
+              "start": 0,
+              "duration": 660,
+              "pitch": 67
+            },
+            {
+              "id": "ln-7-1",
+              "start": 720,
+              "duration": 660,
+              "pitch": 71
+            },
+            {
+              "id": "ln-7-2",
+              "start": 1440,
+              "duration": 660,
+              "pitch": 69
+            },
+            {
+              "id": "ln-7-3",
+              "start": 2160,
+              "duration": 840,
+              "pitch": 73
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drums",
+      "name": "Drums",
+      "role": "rhythm",
+      "instrument": {
+        "name": "Electronic Drum Kit",
+        "family": "drums"
+      },
+      "clips": [
+        {
+          "id": "drums-main",
+          "name": "Meter-aware Drum Preview",
+          "start": 0,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "drum-note-0",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-8",
+              "start": 0,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-1",
+              "start": 480,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-2",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-9",
+              "start": 960,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-3",
+              "start": 1440,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-11",
+              "start": 1920,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-4",
+              "start": 1920,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-5",
+              "start": 2400,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-10",
+              "start": 2880,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-6",
+              "start": 2880,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-7",
+              "start": 3360,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-12",
+              "start": 3840,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-20",
+              "start": 3840,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-13",
+              "start": 4320,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-14",
+              "start": 4800,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-21",
+              "start": 4800,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-15",
+              "start": 5280,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-16",
+              "start": 5760,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-23",
+              "start": 5760,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-17",
+              "start": 6240,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-18",
+              "start": 6720,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-22",
+              "start": 6720,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-19",
+              "start": 7200,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-24",
+              "start": 7680,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-32",
+              "start": 7680,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-25",
+              "start": 8160,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-26",
+              "start": 8640,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-33",
+              "start": 8640,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-27",
+              "start": 9120,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-28",
+              "start": 9600,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-35",
+              "start": 9600,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-29",
+              "start": 10080,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-30",
+              "start": 10560,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-34",
+              "start": 10560,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-31",
+              "start": 11040,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-36",
+              "start": 11520,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-44",
+              "start": 11520,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-37",
+              "start": 12000,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-38",
+              "start": 12480,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-45",
+              "start": 12480,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-39",
+              "start": 12960,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-40",
+              "start": 13440,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-47",
+              "start": 13440,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-41",
+              "start": 13920,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-42",
+              "start": 14400,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-46",
+              "start": 14400,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-43",
+              "start": 14880,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-48",
+              "start": 15360,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-54",
+              "start": 15360,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-49",
+              "start": 15840,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-50",
+              "start": 16320,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-51",
+              "start": 16800,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-56",
+              "start": 16800,
+              "duration": 120,
+              "soundSlotId": "drum-perc"
+            },
+            {
+              "id": "drum-note-52",
+              "start": 17280,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-55",
+              "start": 17280,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-53",
+              "start": 17760,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-57",
+              "start": 18240,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-63",
+              "start": 18240,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-58",
+              "start": 18720,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-59",
+              "start": 19200,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-60",
+              "start": 19680,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-65",
+              "start": 19680,
+              "duration": 120,
+              "soundSlotId": "drum-perc"
+            },
+            {
+              "id": "drum-note-61",
+              "start": 20160,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-64",
+              "start": 20160,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-62",
+              "start": 20640,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-66",
+              "start": 21120,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-72",
+              "start": 21120,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-67",
+              "start": 21600,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-68",
+              "start": 22080,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-69",
+              "start": 22560,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-74",
+              "start": 22560,
+              "duration": 120,
+              "soundSlotId": "drum-perc"
+            },
+            {
+              "id": "drum-note-70",
+              "start": 23040,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-73",
+              "start": 23040,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-71",
+              "start": 23520,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-75",
+              "start": 24000,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-81",
+              "start": 24000,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-76",
+              "start": 24480,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-77",
+              "start": 24960,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-78",
+              "start": 25440,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-83",
+              "start": 25440,
+              "duration": 120,
+              "soundSlotId": "drum-perc"
+            },
+            {
+              "id": "drum-note-79",
+              "start": 25920,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-82",
+              "start": 25920,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-80",
+              "start": 26400,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-84",
+              "start": 26880,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-92",
+              "start": 26880,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-85",
+              "start": 27360,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-86",
+              "start": 27840,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-93",
+              "start": 27840,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-87",
+              "start": 28320,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-88",
+              "start": 28800,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-95",
+              "start": 28800,
+              "duration": 180,
+              "soundSlotId": "drum-kick"
+            },
+            {
+              "id": "drum-note-89",
+              "start": 29280,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-90",
+              "start": 29760,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            },
+            {
+              "id": "drum-note-94",
+              "start": 29760,
+              "duration": 180,
+              "soundSlotId": "drum-snare"
+            },
+            {
+              "id": "drum-note-91",
+              "start": 30240,
+              "duration": 120,
+              "soundSlotId": "drum-hat"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "drum-kick",
+      "name": "Kick",
+      "role": "kick",
+      "midiNote": 36,
+      "midiMapping": {
+        "standard": "custom",
+        "note": 36
+      }
+    },
+    {
+      "id": "drum-snare",
+      "name": "Snare",
+      "role": "snare",
+      "midiNote": 38,
+      "midiMapping": {
+        "standard": "custom",
+        "note": 38
+      }
+    },
+    {
+      "id": "drum-hat",
+      "name": "Closed Hi-Hat",
+      "role": "closed-hat",
+      "midiNote": 42,
+      "midiMapping": {
+        "standard": "custom",
+        "note": 42
+      }
+    },
+    {
+      "id": "drum-perc",
+      "name": "Percussion",
+      "role": "percussion",
+      "midiNote": 39,
+      "midiMapping": {
+        "standard": "custom",
+        "note": 39
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "words",
+        "title": "Between the Beats",
+        "language": "en"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "phrase-0",
+        "documentId": "words",
+        "text": "City lights are waking",
+        "pronunciation": "City lights are waking",
+        "start": 0,
+        "duration": 3840
+      },
+      {
+        "id": "phrase-1",
+        "documentId": "words",
+        "text": "Footsteps find a song",
+        "pronunciation": "Footsteps find a song",
+        "start": 3840,
+        "duration": 3840
+      },
+      {
+        "id": "phrase-2",
+        "documentId": "words",
+        "text": "Every turn brings morning",
+        "pronunciation": "Every turn brings morning",
+        "start": 7680,
+        "duration": 3840
+      },
+      {
+        "id": "phrase-3",
+        "documentId": "words",
+        "text": "We carry it along",
+        "pronunciation": "We carry it along",
+        "start": 11520,
+        "duration": 3840
+      },
+      {
+        "id": "phrase-4",
+        "documentId": "words",
+        "text": "City lights are waking",
+        "pronunciation": "City lights are waking",
+        "start": 15360,
+        "duration": 3840
+      },
+      {
+        "id": "phrase-5",
+        "documentId": "words",
+        "text": "Footsteps find a song",
+        "pronunciation": "Footsteps find a song",
+        "start": 19200,
+        "duration": 3840
+      },
+      {
+        "id": "phrase-6",
+        "documentId": "words",
+        "text": "Every turn brings morning",
+        "pronunciation": "Every turn brings morning",
+        "start": 23040,
+        "duration": 3840
+      },
+      {
+        "id": "phrase-7",
+        "documentId": "words",
+        "text": "We carry it along",
+        "pronunciation": "We carry it along",
+        "start": 26880,
+        "duration": 3840
+      }
+    ],
+    "units": [
+      {
+        "id": "word-0-0",
+        "phraseId": "phrase-0",
+        "text": "City",
+        "pronunciation": "City"
+      },
+      {
+        "id": "word-0-1",
+        "phraseId": "phrase-0",
+        "text": "lights",
+        "pronunciation": "lights"
+      },
+      {
+        "id": "word-0-2",
+        "phraseId": "phrase-0",
+        "text": "are",
+        "pronunciation": "are"
+      },
+      {
+        "id": "word-0-3",
+        "phraseId": "phrase-0",
+        "text": "waking",
+        "pronunciation": "waking"
+      },
+      {
+        "id": "word-1-0",
+        "phraseId": "phrase-1",
+        "text": "Footsteps",
+        "pronunciation": "Footsteps"
+      },
+      {
+        "id": "word-1-1",
+        "phraseId": "phrase-1",
+        "text": "find",
+        "pronunciation": "find"
+      },
+      {
+        "id": "word-1-2",
+        "phraseId": "phrase-1",
+        "text": "a",
+        "pronunciation": "a"
+      },
+      {
+        "id": "word-1-3",
+        "phraseId": "phrase-1",
+        "text": "song",
+        "pronunciation": "song"
+      },
+      {
+        "id": "word-2-0",
+        "phraseId": "phrase-2",
+        "text": "Every",
+        "pronunciation": "Every"
+      },
+      {
+        "id": "word-2-1",
+        "phraseId": "phrase-2",
+        "text": "turn",
+        "pronunciation": "turn"
+      },
+      {
+        "id": "word-2-2",
+        "phraseId": "phrase-2",
+        "text": "brings",
+        "pronunciation": "brings"
+      },
+      {
+        "id": "word-2-3",
+        "phraseId": "phrase-2",
+        "text": "morning",
+        "pronunciation": "morning"
+      },
+      {
+        "id": "word-3-0",
+        "phraseId": "phrase-3",
+        "text": "We",
+        "pronunciation": "We"
+      },
+      {
+        "id": "word-3-1",
+        "phraseId": "phrase-3",
+        "text": "carry",
+        "pronunciation": "carry"
+      },
+      {
+        "id": "word-3-2",
+        "phraseId": "phrase-3",
+        "text": "it",
+        "pronunciation": "it"
+      },
+      {
+        "id": "word-3-3",
+        "phraseId": "phrase-3",
+        "text": "along",
+        "pronunciation": "along"
+      },
+      {
+        "id": "word-4-0",
+        "phraseId": "phrase-4",
+        "text": "City",
+        "pronunciation": "City"
+      },
+      {
+        "id": "word-4-1",
+        "phraseId": "phrase-4",
+        "text": "lights",
+        "pronunciation": "lights"
+      },
+      {
+        "id": "word-4-2",
+        "phraseId": "phrase-4",
+        "text": "are",
+        "pronunciation": "are"
+      },
+      {
+        "id": "word-4-3",
+        "phraseId": "phrase-4",
+        "text": "waking",
+        "pronunciation": "waking"
+      },
+      {
+        "id": "word-5-0",
+        "phraseId": "phrase-5",
+        "text": "Footsteps",
+        "pronunciation": "Footsteps"
+      },
+      {
+        "id": "word-5-1",
+        "phraseId": "phrase-5",
+        "text": "find",
+        "pronunciation": "find"
+      },
+      {
+        "id": "word-5-2",
+        "phraseId": "phrase-5",
+        "text": "a",
+        "pronunciation": "a"
+      },
+      {
+        "id": "word-5-3",
+        "phraseId": "phrase-5",
+        "text": "song",
+        "pronunciation": "song"
+      },
+      {
+        "id": "word-6-0",
+        "phraseId": "phrase-6",
+        "text": "Every",
+        "pronunciation": "Every"
+      },
+      {
+        "id": "word-6-1",
+        "phraseId": "phrase-6",
+        "text": "turn",
+        "pronunciation": "turn"
+      },
+      {
+        "id": "word-6-2",
+        "phraseId": "phrase-6",
+        "text": "brings",
+        "pronunciation": "brings"
+      },
+      {
+        "id": "word-6-3",
+        "phraseId": "phrase-6",
+        "text": "morning",
+        "pronunciation": "morning"
+      },
+      {
+        "id": "word-7-0",
+        "phraseId": "phrase-7",
+        "text": "We",
+        "pronunciation": "We"
+      },
+      {
+        "id": "word-7-1",
+        "phraseId": "phrase-7",
+        "text": "carry",
+        "pronunciation": "carry"
+      },
+      {
+        "id": "word-7-2",
+        "phraseId": "phrase-7",
+        "text": "it",
+        "pronunciation": "it"
+      },
+      {
+        "id": "word-7-3",
+        "phraseId": "phrase-7",
+        "text": "along",
+        "pronunciation": "along"
+      }
+    ],
+    "alignments": [
+      {
+        "id": "align-0-0",
+        "unitIds": [
+          "word-0-0"
+        ],
+        "noteIds": [
+          "ln-0-0"
+        ]
+      },
+      {
+        "id": "align-0-1",
+        "unitIds": [
+          "word-0-1"
+        ],
+        "noteIds": [
+          "ln-0-1"
+        ]
+      },
+      {
+        "id": "align-0-2",
+        "unitIds": [
+          "word-0-2"
+        ],
+        "noteIds": [
+          "ln-0-2"
+        ]
+      },
+      {
+        "id": "align-0-3",
+        "unitIds": [
+          "word-0-3"
+        ],
+        "noteIds": [
+          "ln-0-3"
+        ]
+      },
+      {
+        "id": "align-1-0",
+        "unitIds": [
+          "word-1-0"
+        ],
+        "noteIds": [
+          "ln-1-0"
+        ]
+      },
+      {
+        "id": "align-1-1",
+        "unitIds": [
+          "word-1-1"
+        ],
+        "noteIds": [
+          "ln-1-1"
+        ]
+      },
+      {
+        "id": "align-1-2",
+        "unitIds": [
+          "word-1-2"
+        ],
+        "noteIds": [
+          "ln-1-2"
+        ]
+      },
+      {
+        "id": "align-1-3",
+        "unitIds": [
+          "word-1-3"
+        ],
+        "noteIds": [
+          "ln-1-3"
+        ]
+      },
+      {
+        "id": "align-2-0",
+        "unitIds": [
+          "word-2-0"
+        ],
+        "noteIds": [
+          "ln-2-0"
+        ]
+      },
+      {
+        "id": "align-2-1",
+        "unitIds": [
+          "word-2-1"
+        ],
+        "noteIds": [
+          "ln-2-1"
+        ]
+      },
+      {
+        "id": "align-2-2",
+        "unitIds": [
+          "word-2-2"
+        ],
+        "noteIds": [
+          "ln-2-2"
+        ]
+      },
+      {
+        "id": "align-2-3",
+        "unitIds": [
+          "word-2-3"
+        ],
+        "noteIds": [
+          "ln-2-3"
+        ]
+      },
+      {
+        "id": "align-3-0",
+        "unitIds": [
+          "word-3-0"
+        ],
+        "noteIds": [
+          "ln-3-0"
+        ]
+      },
+      {
+        "id": "align-3-1",
+        "unitIds": [
+          "word-3-1"
+        ],
+        "noteIds": [
+          "ln-3-1"
+        ]
+      },
+      {
+        "id": "align-3-2",
+        "unitIds": [
+          "word-3-2"
+        ],
+        "noteIds": [
+          "ln-3-2"
+        ]
+      },
+      {
+        "id": "align-3-3",
+        "unitIds": [
+          "word-3-3"
+        ],
+        "noteIds": [
+          "ln-3-3"
+        ]
+      },
+      {
+        "id": "align-4-0",
+        "unitIds": [
+          "word-4-0"
+        ],
+        "noteIds": [
+          "ln-4-0"
+        ]
+      },
+      {
+        "id": "align-4-1",
+        "unitIds": [
+          "word-4-1"
+        ],
+        "noteIds": [
+          "ln-4-1"
+        ]
+      },
+      {
+        "id": "align-4-2",
+        "unitIds": [
+          "word-4-2"
+        ],
+        "noteIds": [
+          "ln-4-2"
+        ]
+      },
+      {
+        "id": "align-4-3",
+        "unitIds": [
+          "word-4-3"
+        ],
+        "noteIds": [
+          "ln-4-3"
+        ]
+      },
+      {
+        "id": "align-5-0",
+        "unitIds": [
+          "word-5-0"
+        ],
+        "noteIds": [
+          "ln-5-0"
+        ]
+      },
+      {
+        "id": "align-5-1",
+        "unitIds": [
+          "word-5-1"
+        ],
+        "noteIds": [
+          "ln-5-1"
+        ]
+      },
+      {
+        "id": "align-5-2",
+        "unitIds": [
+          "word-5-2"
+        ],
+        "noteIds": [
+          "ln-5-2"
+        ]
+      },
+      {
+        "id": "align-5-3",
+        "unitIds": [
+          "word-5-3"
+        ],
+        "noteIds": [
+          "ln-5-3"
+        ]
+      },
+      {
+        "id": "align-6-0",
+        "unitIds": [
+          "word-6-0"
+        ],
+        "noteIds": [
+          "ln-6-0"
+        ]
+      },
+      {
+        "id": "align-6-1",
+        "unitIds": [
+          "word-6-1"
+        ],
+        "noteIds": [
+          "ln-6-1"
+        ]
+      },
+      {
+        "id": "align-6-2",
+        "unitIds": [
+          "word-6-2"
+        ],
+        "noteIds": [
+          "ln-6-2"
+        ]
+      },
+      {
+        "id": "align-6-3",
+        "unitIds": [
+          "word-6-3"
+        ],
+        "noteIds": [
+          "ln-6-3"
+        ]
+      },
+      {
+        "id": "align-7-0",
+        "unitIds": [
+          "word-7-0"
+        ],
+        "noteIds": [
+          "ln-7-0"
+        ]
+      },
+      {
+        "id": "align-7-1",
+        "unitIds": [
+          "word-7-1"
+        ],
+        "noteIds": [
+          "ln-7-1"
+        ]
+      },
+      {
+        "id": "align-7-2",
+        "unitIds": [
+          "word-7-2"
+        ],
+        "noteIds": [
+          "ln-7-2"
+        ]
+      },
+      {
+        "id": "align-7-3",
+        "unitIds": [
+          "word-7-3"
+        ],
+        "noteIds": [
+          "ln-7-3"
+        ]
+      }
+    ]
+  },
+  "resources": [],
+  "contributors": [
+    {
+      "id": "contributor-data-editor",
+      "name": "yoh-nak"
+    }
+  ],
+  "presentation": {
+    "status": "current",
+    "dependencies": {
+      "scope": "document"
+    },
+    "roleDefinitions": [],
+    "sectionRoleAssignments": {},
+    "appearance": {
+      "roleColors": {
+        "verse": "#268E99",
+        "chorus": "#DF6868"
+      },
+      "customRoleColors": {},
+      "objectColors": [
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-0"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-1"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-2"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-3"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-4"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-5"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-6"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-7"
+          },
+          "color": "#268E99"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-8"
+          },
+          "color": "#DF6868"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-9"
+          },
+          "color": "#DF6868"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-10"
+          },
+          "color": "#DF6868"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-11"
+          },
+          "color": "#DF6868"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-12"
+          },
+          "color": "#DF6868"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-13"
+          },
+          "color": "#DF6868"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-14"
+          },
+          "color": "#DF6868"
+        },
+        {
+          "target": {
+            "type": "chord",
+            "id": "chord-15"
+          },
+          "color": "#DF6868"
+        }
+      ]
+    }
+  },
+  "provenance": {
+    "records": [
+      {
+        "id": "history-purpose",
+        "action": "other",
+        "description": "Half-bar chords, three pitched parts, note tails, tempo change and lyric alignment; not a full production"
+      },
+      {
+        "id": "history-stage2",
+        "action": "other",
+        "description": "Curated for OSTF Player 3.8 Stage 2: realistic chord timing, metadata and feature coverage."
+      },
+      {
+        "id": "history-credit-status",
+        "action": "other",
+        "description": "Source credits.status: curated-demonstration"
+      },
+      {
+        "id": "history-initial-key-label",
+        "action": "other",
+        "description": "Source keyChanges[0].label: Opening key"
+      },
+      {
+        "id": "history-migration34",
+        "action": "conversion",
+        "description": "Explicit metadata-only migration to OSTF 3.4.0; saved performance, lyric content and earlier authored contexts retained. Language English mapped to en. No composer credit inferred.",
+        "tool": {
+          "name": "OSTF 3.4 specification data migration",
+          "version": "1"
+        },
+        "sources": [
+          {
+            "format": "OSTF",
+            "version": "3.3.0",
+            "sha256": "be90c1a82fce2c9cbf08b93ce0c5ef0afcd0ae6f1caa677cf8aa36598c12c38a"
+          }
+        ]
+      }
+    ]
+  },
+  "document": {
+    "id": "urn:uuid:faa30df8-cc4d-53bc-a3b7-691ed92af75a",
+    "revisionId": "urn:uuid:866f724c-b78e-5219-9928-5ea337dddc1a",
+    "modifiedBy": {
+      "name": "OSTF 3.4 specification data migration",
+      "version": "1"
+    }
+  }
+}
